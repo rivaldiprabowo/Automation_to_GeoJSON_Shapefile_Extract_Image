@@ -1,0 +1,753 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.489041,
+                    -6.955122
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_6.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": "Tidak Diketahui",
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "Yes",
+                "KONDISI_Pilih Salah Satu": "Rusak Ringan",
+                "KETERANGAN KONDISI": "Rambu Pudar",
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.489114,
+                    -6.95562
+                ]
+            },
+            "properties": {
+                "NO": 2,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_7.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": "Tidak Diketahui",
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "Yes",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": "Rusak Ringan",
+                "KETERANGAN KONDISI": "Rambu Pudar",
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.490294,
+                    -6.964933
+                ]
+            },
+            "properties": {
+                "NO": 3,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_8.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": "Tidak Diketahui",
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "Yes",
+                "KONDISI_Pilih Salah Satu": "Rusak Ringan",
+                "KETERANGAN KONDISI": "Rambu Pudar",
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.488816,
+                    -6.967595
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_9.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": "Tidak Diketahui",
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "Yes",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": "Rusak Ringan",
+                "KETERANGAN KONDISI": "Rambu Pudar",
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.488729,
+                    -6.967755
+                ]
+            },
+            "properties": {
+                "NO": 2,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_10.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": "Tidak Diketahui",
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "Yes",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": "Rusak Ringan",
+                "KETERANGAN KONDISI": "Rambu Pudar",
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 3,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_11.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 4,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_12.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 5,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_13.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 6,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_14.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 7,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_15.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 8,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_16.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_17.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_18.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_19.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_20.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_21.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_22.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_23.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_24.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_25.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_26.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_27.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_28.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_29.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_30.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_31.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "converted_output\\extracted_images\\RPPJ_32.jpg",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    NaN,
+                    NaN
+                ]
+            },
+            "properties": {
+                "NO": 1,
+                "DETAIL LOKASI": "Ruas Jalan Siliwangi (Kuningan)",
+                "DOKUMENTASI": "nan",
+                "TAHUN ANGGARAN_Pilih Salah Satu": NaN,
+                "LOKASI PEMASANGAN_KIRI_Jika Ya isi 1, Jika Tidak isi 0": "No",
+                "LOKASI PEMASANGAN_TENGAH": "No",
+                "LOKASI PEMASANGAN_KANAN": "No",
+                "KONDISI_Pilih Salah Satu": NaN,
+                "KETERANGAN KONDISI": NaN,
+                "JENIS TIANG": NaN
+            }
+        }
+    ]
+}
