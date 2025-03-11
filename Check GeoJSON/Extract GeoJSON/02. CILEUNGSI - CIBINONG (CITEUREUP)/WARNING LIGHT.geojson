@@ -1,0 +1,320 @@
+{
+    "type": "FeatureCollection",
+    "name": "WARNING LIGHT_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9616914,
+                    -6.414396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.936136,
+                    -6.449567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.935342,
+                    -6.449937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.931164,
+                    -6.455292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.930359,
+                    -6.456015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.923575,
+                    -6.453484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Perawatan Perbaikan WL",
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.917916,
+                    -6.450262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.907946,
+                    -6.451017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.902111,
+                    -6.455534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.896761,
+                    -6.458914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.896676,
+                    -6.458966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.896054,
+                    -6.459326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Perawatan Perbaikan WL",
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.896058,
+                    -6.459317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Jenis Sumber Daya": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.892072,
+                    -6.462569
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "type": "FeatureCollection",
+    "name": "RPPJ_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Di depan BRI Cabang Surade",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5637106,
+                    -7.3417742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Di depan Kantor Hukum Surade",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5622287,
+                    -7.3420405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Disebrang Bengkel Dirga Motor",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5562179,
+                    -7.3456751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Didepan D'TOP",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5445907,
+                    -7.3562742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Disebrang rumah makan minang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5428788,
+                    -7.356853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Disebrang Toko Hibridi Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5390057,
+                    -7.3700493
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Disamping Masjid Al Ikhlas Cibungur",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5377114,
+                    -7.371026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Didepan Warung Leli Wuliyati",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sudah Tidak Ada Palang Petunjuk Hanya Tiang",
+                "Jenis Tiang": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.4126905,
+                    -7.3586286
+                ]
+            }
+        }
+    ]
+}

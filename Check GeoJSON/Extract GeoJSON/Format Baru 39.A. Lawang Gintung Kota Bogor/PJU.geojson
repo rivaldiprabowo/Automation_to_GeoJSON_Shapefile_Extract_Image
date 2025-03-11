@@ -1,0 +1,662 @@
+{
+    "type": "FeatureCollection",
+    "name": "PJU_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Titik Awal Jl. Lawang Gintung",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8144245,
+                    -6.620124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Dekat Jembatan",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8142569,
+                    -6.6202286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Ganti Lampu ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8140926,
+                    -6.6203867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Depan Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8140926,
+                    -6.6203867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Sebrang Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8136923,
+                    -6.6204264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Depan Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8136035,
+                    -6.620445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Sebrang Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Ganti Lampu ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8140926,
+                    -6.6203867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Sepanjang Sisi Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8132468,
+                    -6.620532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": "Sepanjang Sisi Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8129204,
+                    -6.6206494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": "Sepanjang Sisi Boehringer Ingelheim",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Ganti Lampu ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8126062,
+                    -6.6207327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": "Bengkel Per Restu Fika",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Ganti Lampu ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8122412,
+                    -6.6214486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": "Depan Rumah Warga",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8122067,
+                    -6.6216281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": "Depan Kios ",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8121963,
+                    -6.6219042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": "Depan Rumah Warga",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8122383,
+                    -6.6225427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Ganti Lampu ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8124842,
+                    -6.6233093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8122784,
+                    -6.6234809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "17",
+                "Detail Lokasi": "Depan Rumah Warga",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8120969,
+                    -6.6235031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "18",
+                "Detail Lokasi": "Depan Sekolah Kinderfield School",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8115637,
+                    -6.6235632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "19",
+                "Detail Lokasi": "Depan Gang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8110542,
+                    -6.6235885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "20",
+                "Detail Lokasi": "Depan Markas Grup C Paspampres",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8108732,
+                    -6.6236139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "21",
+                "Detail Lokasi": "Depan Pabrik",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8104239,
+                    -6.6236993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "22",
+                "Detail Lokasi": "Tepat tikungan / depan rumah warga",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8101497,
+                    -6.6238288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "23",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8100739,
+                    -6.6239909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "24",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8099063,
+                    -6.6246945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "25",
+                "Detail Lokasi": "Depan Kios",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.8096839,
+                    -6.6248532
+                ]
+            }
+        }
+    ]
+}

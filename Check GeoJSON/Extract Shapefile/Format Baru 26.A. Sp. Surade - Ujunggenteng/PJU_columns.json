@@ -1,0 +1,16 @@
+{
+    "No": "COL_000",
+    "Detail Lokasi": "COL_001",
+    "Dokumentasi": "COL_002",
+    "Tahun Anggaran": "COL_003",
+    "Lokasi Pemasangan Kiri": "COL_004",
+    "Lokasi Pemasangan Tengah": "COL_005",
+    "Lokasi Pemasangan Kanan": "COL_006",
+    "Kondisi": "COL_007",
+    "Keterangan Kondisi": "COL_008",
+    "Jenis Pju": "COL_009",
+    "Jenis Tiang": "COL_010",
+    "Jenis Lampu": "COL_011",
+    "Meterisasi": "COL_012",
+    "Geometry": "COL_013"
+}

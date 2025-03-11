@@ -1,0 +1,10 @@
+{
+    "No": "COL_000",
+    "Detail Lokasi": "COL_001",
+    "Dokumentasi": "COL_002",
+    "Tahun Anggaran": "COL_003",
+    "Jenis Penyeberangan": "COL_004",
+    "Kondisi": "COL_005",
+    "Keterangan Kondisi": "COL_006",
+    "Geometry": "COL_007"
+}

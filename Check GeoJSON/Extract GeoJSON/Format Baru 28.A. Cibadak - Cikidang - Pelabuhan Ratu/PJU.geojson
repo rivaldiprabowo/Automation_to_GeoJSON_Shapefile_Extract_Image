@@ -1,0 +1,5498 @@
+{
+    "type": "FeatureCollection",
+    "name": "PJU_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Jalan Masuk Cikidang - Cibadak",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik dan tiang sudah miring",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.764007,
+                    -6.8776816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Depan Kantor Desa Pamuruyan Kec. Cikidang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.765387,
+                    -6.878081
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.762804,
+                    -6.8784635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.759906,
+                    -6.8786842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.758488,
+                    -6.878794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Jaringan sudah tidak berfungsi dengan baik ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.746432,
+                    -6.87848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.681046,
+                    -6.8755571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.675837,
+                    -6.8757384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.672228,
+                    -6.8757668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.666855,
+                    -6.875679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.663271,
+                    -6.8756259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.659648,
+                    -6.8755696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.652644,
+                    -6.8753646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.649063,
+                    -6.8753117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.646278,
+                    -6.8753178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.642633,
+                    -6.8753229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.638157,
+                    -6.8753368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.633635,
+                    -6.8752553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.630269,
+                    -6.8751022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.629011,
+                    -6.8748056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.628153,
+                    -6.8744511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.628158,
+                    -6.8740845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.627169,
+                    -6.8736937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.624206,
+                    -6.8735034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.620706,
+                    -6.8734233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.617129,
+                    -6.8733903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.613769,
+                    -6.8732608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.609707,
+                    -6.8730518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.606547,
+                    -6.8728718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.604134,
+                    -6.87275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.759978,
+                    -6.8726139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.597104,
+                    -6.8725586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.592689,
+                    -6.8724112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.589497,
+                    -6.8722427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.758579,
+                    -6.8721026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.578755,
+                    -6.8719151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.575115,
+                    -6.8718256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.757234,
+                    -6.8717447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.567862,
+                    -6.8716322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2016",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.565258,
+                    -6.8715655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.383266,
+                    -6.8737334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.378706,
+                    -6.8737825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.370653,
+                    -6.8738445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "ada jaringan yang terputus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.363829,
+                    -6.8738938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.246255,
+                    -6.8664923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.241835,
+                    -6.8663828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.237082,
+                    -6.8661206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.232066,
+                    -6.8658104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.228182,
+                    -6.8655715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.224315,
+                    -6.8653344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.220395,
+                    -6.8650966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.216485,
+                    -6.8648558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.212662,
+                    -6.8646068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Juli 2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Pengadaan TA 2024",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.208726,
+                    -6.8643751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.962162,
+                    -6.8666495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": "Disamping Kantor Desa",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.944932,
+                    -68.676573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": "Depan Kantor Desa Cicareuh",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.861598,
+                    -6.8674062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.944932,
+                    -68.676573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "lampu mati",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.795171,
+                    -6.8707686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.745169,
+                    -6.8749818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.729663,
+                    -6.8746146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": "Disamping kantor Desa Pangkalan",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "lampu dan kabel putus",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.724404,
+                    -6.8754781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.720692,
+                    -6.8762975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.721028,
+                    -6.8766615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "jaringan dan lampu sdh mati",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.702382,
+                    -6.8816071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.679066,
+                    -6.882433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.610451,
+                    -6.8866932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.551697,
+                    -6.8911106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.516688,
+                    -68.939284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.511821,
+                    -0.689449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.476177,
+                    -68.962458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.475198,
+                    -68.960927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.664746,
+                    -68.960257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.470736,
+                    -68.960629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.459997,
+                    -6.894825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.453815,
+                    -68.944422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.449142,
+                    -68.942548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.644303,
+                    -68.941872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.436298,
+                    -68.939038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.433579,
+                    -6.893648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.431019,
+                    -68.932685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.429651,
+                    -6.893028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.426415,
+                    -68.927098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.422957,
+                    -68.926243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.641594,
+                    -68.925363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.412609,
+                    -68.923933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.407444,
+                    -68.924396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.405445,
+                    -68.925167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.402998,
+                    -68.928817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.402032,
+                    -68.932387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.640209,
+                    -68.934233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.404326,
+                    -68.939221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.640571,
+                    -68.942612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.406264,
+                    -68.944349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.640864,
+                    -68.958433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.406139,
+                    -68.962303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.640402,
+                    -6.896531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.401815,
+                    -68.968215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.639932,
+                    -68.970913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.397092,
+                    -68.973805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.395902,
+                    -68.975213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.390634,
+                    -68.980277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.388793,
+                    -68.983371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.388029,
+                    -68.988811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.388278,
+                    -68.992439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.638925,
+                    -68.997708
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.291266,
+                    -69.077765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.288337,
+                    -69.069196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.287737,
+                    -6.906865
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.223745,
+                    -69.096671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.220519,
+                    -69.094783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.621926,
+                    -69.091348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.621753,
+                    -69.087067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.212362,
+                    -69.088323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.209095,
+                    69.089776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.206488,
+                    -69.095167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.620392,
+                    -69.097918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.201329,
+                    -69.097251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.198888,
+                    -69.103904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.196326,
+                    -69.107753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.053202,
+                    -69.149993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.057181,
+                    -69.150654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.063088,
+                    -69.153015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.066361,
+                    -69.154723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.043822,
+                    -69.165374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.043243,
+                    -69.170743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.044214,
+                    -69.174269
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.047621,
+                    -69.179412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.181812,
+                    -69.106445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.139049,
+                    -6.913393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.137057,
+                    -69.135898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.134567,
+                    -69.137033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.130159,
+                    -69.137207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.119029,
+                    -69.143651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.113886,
+                    -6.914705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.110799,
+                    -69.150383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.108382,
+                    -69.153209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.104903,
+                    -69.157838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.098554,
+                    69.154827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.6097263,
+                    6.9158715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.609303,
+                    6.91625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.049856,
+                    -69.151231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.043433,
+                    -69.171654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.006961,
+                    -69.251303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.6004445,
+                    69.253921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.599627,
+                    -69.378281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.999671,
+                    -69.372845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.001413,
+                    -69.317507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.000903,
+                    -69.321855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.001571,
+                    -69.331859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.002122,
+                    -69.334562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.600248,
+                    -69.337283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.002491,
+                    -6.934093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.600194,
+                    -69.344562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.005939,
+                    -69.367085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.007592,
+                    -69.366261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.005895,
+                    -69.302087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.004802,
+                    -6.930342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.003801,
+                    -69.304937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.002371,
+                    -69.310219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.599486,
+                    -69.379445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.992196,
+                    -69.379932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.989513,
+                    -69.380401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.987019,
+                    -6.938148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.985338,
+                    -69.382238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.982635,
+                    -69.382922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.978476,
+                    -69.384482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.976254,
+                    -6.938838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.972489,
+                    -69.395233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.577038,
+                    6.955153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.759897,
+                    -69.568113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.756641,
+                    -69.574483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.754724,
+                    -69.578632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.752792,
+                    -6.958283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.750321,
+                    -69.586879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2017",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.747298,
+                    -69.590194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.746097,
+                    -69.591598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.744856,
+                    -6.959299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.742305,
+                    -69.595621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.739767,
+                    -69.598325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.737377,
+                    -69.601021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.734851,
+                    -69.603732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.731806,
+                    -69.607045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.728531,
+                    -6.961036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.725445,
+                    -69.612262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.723486,
+                    -69.615168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.720873,
+                    -69.620892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.718906,
+                    -69.623902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.717008,
+                    -69.626006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.714237,
+                    -69.628275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.571126,
+                    -69.630323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.708731,
+                    -69.631178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.706234,
+                    -69.633816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.701178,
+                    -69.637578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.696247,
+                    -69.642966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.690915,
+                    -6.964903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.689073,
+                    -69.650933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.682877,
+                    -69.660715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.680047,
+                    -69.668629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.677468,
+                    -69.673764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.674852,
+                    -69.677556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.672625,
+                    -69.680355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.669178,
+                    -69.683137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2024",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.666937,
+                    -69.688109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2022",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.700361,
+                    -69.638014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2022",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.568955,
+                    -69.650183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.681298,
+                    -69.663827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Solar Cell",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.671264,
+                    -69.681322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.666762,
+                    -69.689016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.665506,
+                    -69.692346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": "1",
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.663608,
+                    -69.694196
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+    "name": "RPPJ_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Pertigaan Yonif Cikembar",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7965,
+                    -6.9623311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Pertigaan Yonif Cikembar",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7963242,
+                    -6.9622746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Masjid Al-Alhafidiyyah Cikembar",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7959874,
+                    -6.9621524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Puskesmas Cikembar",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7958985,
+                    -6.9621231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Masjid",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7696438,
+                    -6.9558528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Pertigaan ",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7689459,
+                    -6.9550704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Pertigaan ",
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7689459,
+                    -6.9550704
+                ]
+            }
+        }
+    ]
+}

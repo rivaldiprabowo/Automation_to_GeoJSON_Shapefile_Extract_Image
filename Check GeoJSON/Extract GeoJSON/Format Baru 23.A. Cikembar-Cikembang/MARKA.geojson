@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Pertigaan Yonif Cikembar",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Rusak Berat",
+                "Panjang Marka (m)": "1600m"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.7965,
+                        -6.9623311
+                    ],
+                    [
+                        106.7825967,
+                        -6.9613536
+                    ]
+                ]
+            }
+        }
+    ]
+}

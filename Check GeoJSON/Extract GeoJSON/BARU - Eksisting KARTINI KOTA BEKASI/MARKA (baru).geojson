@@ -1,0 +1,298 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA (baru)_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.0024298,
+                        -6.2467464
+                    ],
+                    [
+                        107.0024298,
+                        -6.2467464
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.002115,
+                        -6.2471153
+                    ],
+                    [
+                        107.002115,
+                        -6.2471153
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "Marka Tepi",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "100"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.000212,
+                        -6.2502639
+                    ],
+                    [
+                        106.9998756,
+                        -6.2507306
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "100"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9997805,
+                        -6.2509538
+                    ],
+                    [
+                        106.9997993,
+                        -6.2509444
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "Marka Tepi",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "100"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9997993,
+                        -6.2509444
+                    ],
+                    [
+                        106.9996234,
+                        -6.2512132
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9985844,
+                        -6.2530474
+                    ],
+                    [
+                        106.9985845,
+                        -6.2530474
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9978938,
+                        -6.2544599
+                    ],
+                    [
+                        106.9978518,
+                        -6.2545444
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9978081,
+                        -6.2546263
+                    ],
+                    [
+                        106.9978081,
+                        -6.2546263
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.99569,
+                        -6.2582752
+                    ],
+                    [
+                        106.9956386,
+                        -6.2583517
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "PITA KEJUT",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "30"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9955353,
+                        -6.2585038
+                    ],
+                    [
+                        106.9954874,
+                        -6.2585815
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Jenis Marka": "Marka Tepi",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": "10"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9953283,
+                        -6.2588698
+                    ],
+                    [
+                        106.9950352,
+                        -6.2592118
+                    ]
+                ]
+            }
+        }
+    ]
+}

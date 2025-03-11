@@ -1,0 +1,334 @@
+{
+    "type": "FeatureCollection",
+    "name": "RPPJ_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.148076,
+                    -6.294895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.147568,
+                    -6.295787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.145036,
+                    -6.301859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.14382,
+                    -6.308845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang Kupu Kupu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.142904,
+                    -6.312513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.138715,
+                    -6.316382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.12012,
+                    -6.33901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.11553,
+                    -6.366711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.106885,
+                    -6.382835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.104531,
+                    -6.384185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.08617,
+                    -6.424124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.086352,
+                    -6.425686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.077779,
+                    -6.437564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Gambar Rppj": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.075376,
+                    -6.437813
+                ]
+            }
+        }
+    ]
+}

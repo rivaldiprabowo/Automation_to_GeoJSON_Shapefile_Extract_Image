@@ -1,0 +1,1787 @@
+{
+    "type": "FeatureCollection",
+    "name": "PJU_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Depan Toko Percetakan",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9760075,
+                    -6.3535107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Depan Mesjid Al Muminin",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9757704,
+                    -6.3559437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Samping Toko Raka",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9759318,
+                    -6.3566884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Seberang PT. Inamulti Intipack",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.976537,
+                    -6.3590585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Depan Rumah Makan Sate Tegal SipTop",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9766104,
+                    -6.3598859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Seberang Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kanan ada PJU, tapi kondisi lampu mati dan tihang berkarat",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.976291,
+                    -6.3615193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Seberang Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kanan ada PJU, tapi kondisi lampu mati dan tihang berkarat",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9762098,
+                    -6.3618638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9762098,
+                    -6.3618638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": "Bebek Goreng Aril",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.975847,
+                    -6.3625836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": "Seberang Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kanan ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9757772,
+                    6.3628823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9755098,
+                    -6.3634839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": "Dekat TB Cileungsi Makmur",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9753187,
+                    -6.3639632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": "Dekat Gardu PLN",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9750416,
+                    -6.364837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": "Depan SD Islam Nurul Fatimah",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9748791,
+                    -6.3656038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Detail Lokasi": "Samping SPBU",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9745324,
+                    -6.3669322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Detail Lokasi": "Samping Toko Obat Kuat Titan Gel",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9739662,
+                    -6.3678581
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "17",
+                "Detail Lokasi": "Bengkel AC Mobil",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9733013,
+                    -6.369391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "18",
+                "Detail Lokasi": "Depan Pabrik PT. Haralag Baja Utama",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9731425,
+                    -6.3701078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "19",
+                "Detail Lokasi": "Depan Klinik Gracia",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9729127,
+                    -6.370995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "20",
+                "Detail Lokasi": "Samping Apotek K24",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9727582,
+                    -6.3716178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "21",
+                "Detail Lokasi": "Depan Cuci Steam",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9723496,
+                    -6.3728871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "22",
+                "Detail Lokasi": "Depan Warteg Podosari Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri ada PJU, tapi kondisi lampu mati ",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9717275,
+                    -6.3743509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "24",
+                "Detail Lokasi": "Jual Pasir",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9703654,
+                    -6.3761449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "25",
+                "Detail Lokasi": "Jual Pasir",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9702077,
+                    -6.3764316
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "26",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9699935,
+                    -6.3767949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "27",
+                "Detail Lokasi": "Depan Teknik Selaras",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.969485,
+                    -6.3773814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "28",
+                "Detail Lokasi": "Seberang Gardu PLN",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9694203,
+                    -6.3777076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "29",
+                "Detail Lokasi": "Depan Nasi Soto Ayam Mas Wandi",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9692329,
+                    -6.3780208
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "30",
+                "Detail Lokasi": "Depan Bengkel Rapih Motor",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": "LED",
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.969054,
+                    -6.3783399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "31",
+                "Detail Lokasi": "Seberang Toko SRC Ujang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9687375,
+                    -6.3789921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "32",
+                "Detail Lokasi": "Dekat Persimpangan Akses Masuk Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9685491,
+                    6.3792324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "33",
+                "Detail Lokasi": "Persimpangan Masuk Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9683806,
+                    -6.3796548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "34",
+                "Detail Lokasi": "Depan Warteg Berkah Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9682762,
+                    -6.3799556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "35",
+                "Detail Lokasi": "Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9682333,
+                    -6.3800855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "36",
+                "Detail Lokasi": "33 Jl. Raya Narogong",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9681789,
+                    -6.3802598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "37",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9682016,
+                    -6.3804021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "38",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9681119,
+                    -6.3806647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "39",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9679966,
+                    -6.3810181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "40",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9678868,
+                    -6.3813702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "41",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9678126,
+                    -6.3816356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "42",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9677126,
+                    -6.3819878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "43",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676037,
+                    -6.3824743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "44",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9675944,
+                    6.3827446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "45",
+                "Detail Lokasi": "Seberang PT. TRAKINDO CAT",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676128,
+                    -6.3830824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "46",
+                "Detail Lokasi": "Seberang AFI CELL",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.967864,
+                    -6.3841531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "47",
+                "Detail Lokasi": "Seberang PT. TRAKINDO CAT",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9679441,
+                    -6.3845048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "48",
+                "Detail Lokasi": "Seberang Eriska Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Double Arm",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680236,
+                    -6.3848628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "49",
+                "Detail Lokasi": "Samping Toko Ibu Yayan",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.968158,
+                    -6.3857769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "50",
+                "Detail Lokasi": "Seberang PT. BUKAKA",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9683758,
+                    -6.3864661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "51",
+                "Detail Lokasi": "Akses Jalan Masuk PT. MTU",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9685852,
+                    -6.3873578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "52",
+                "Detail Lokasi": "Depan Ananda Solusindo",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9687676,
+                    -6.3881112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "53",
+                "Detail Lokasi": "Depan PT HAKAASTON",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9689643,
+                    -6.3900942
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "54",
+                "Detail Lokasi": "Seberang Amercan Standard Indonesia",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9695424,
+                    -6.3925248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "55",
+                "Detail Lokasi": "250 Jl. Raya Narogong",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9697095,
+                    -6.3932306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "56",
+                "Detail Lokasi": "Saming Pebri Jayaper",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.969805,
+                    -6.3940858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "57",
+                "Detail Lokasi": "Samping Seblak Emak",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9698489,
+                    -6.3944499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "58",
+                "Detail Lokasi": "Samping Anpaki Steam Snowash",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9699126,
+                    -6.3949489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "59",
+                "Detail Lokasi": "Samping Showroom Hino",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9700061,
+                    -6.3957165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "60",
+                "Detail Lokasi": "STIKes DR SISMADI",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9702221,
+                    -6.3965035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "61",
+                "Detail Lokasi": "Samping Utama Aki",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9704697,
+                    -6.3974242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "62",
+                "Detail Lokasi": "Depan Toko Bolu Kartika",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9697622,
+                    -6.3985497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "63",
+                "Detail Lokasi": "Sebrang Toko Besi dan Baja",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9691233,
+                    -6.3990661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "64",
+                "Detail Lokasi": "Sebrang Apotik Hijau",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9684743,
+                    -6.3995643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "65",
+                "Detail Lokasi": "Samping Toko Besi Rizky Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9678234,
+                    -6.4000583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "66",
+                "Detail Lokasi": "Samping Warung Kebun",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9672079,
+                    -6.4005341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "67",
+                "Detail Lokasi": "Samping Toko Angrah Plafon PVC",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9665587,
+                    -6.4010378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "68",
+                "Detail Lokasi": "Samping Warung Makan Dapoer Ibu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9659278,
+                    -6.4015603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "69",
+                "Detail Lokasi": "Samping Kios Terpal Plastik",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9653555,
+                    -6.402146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "70",
+                "Detail Lokasi": "Depan SPBU",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9648517,
+                    -6.4026706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "71",
+                "Detail Lokasi": "Samping PT Fairco Agung Kencana",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9642695,
+                    -6.4032908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "72",
+                "Detail Lokasi": "Samping Apotik Cileungsi",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Lampu masih bohlam harus ganti",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": null,
+                "Meterisasi": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9637844,
+                    -6.4038781
+                ]
+            }
+        }
+    ]
+}

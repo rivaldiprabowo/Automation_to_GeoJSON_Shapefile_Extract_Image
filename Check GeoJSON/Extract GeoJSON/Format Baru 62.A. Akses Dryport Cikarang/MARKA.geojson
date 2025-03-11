@@ -1,0 +1,132 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.166343,
+                    -6.279543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "3000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.148986,
+                    -6.274398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4298,
+                    50.07967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "2000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.131478,
+                    -6.290299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.155519,
+                    -6.27512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "3000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.165947,
+                    -6.278426
+                ]
+            }
+        }
+    ]
+}

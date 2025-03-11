@@ -1,0 +1,147 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "2023",
+                "Jenis Marka": "Marka Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "12200",
+                "Keterangan": "Tambahkan pada Kebutuhan"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9664835,
+                        -6.4058211
+                    ],
+                    [
+                        107.0557907,
+                        -6.4411026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "700",
+                "Keterangan": "Tambahkan pada Kebutuhan"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.0725031,
+                        -6.477194
+                    ],
+                    [
+                        107.076816,
+                        -6.479237
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "1000",
+                "Keterangan": "Tambahkan pada Kebutuhan"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.0934614,
+                        -6.4751708
+                    ],
+                    [
+                        107.101514,
+                        -6.479526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "1100",
+                "Keterangan": "Tambahkan pada Kebutuhan"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.1226534,
+                        -6.4978714
+                    ],
+                    [
+                        107.130295,
+                        -6.501808
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "500",
+                "Keterangan": "Tambahkan pada Kebutuhan"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.1475409,
+                        -6.6007634
+                    ],
+                    [
+                        107.148111,
+                        -6.605086
+                    ]
+                ]
+            }
+        }
+    ]
+}

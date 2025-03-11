@@ -1,0 +1,212 @@
+{
+    "type": "FeatureCollection",
+    "name": "FAS PENYEBERANGAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "MTSN 2 SUKABUMI",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.551546,
+                    -7.353842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Kantor UPTD Dalduk Surage",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5428079,
+                    -7.3573056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Didepan Kantor Desa Pasiripis",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5427619,
+                    -7.357584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Didepan Puskesmas Buniwangi",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5397252,
+                    -7.3675089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Didepan Puskesmas Buniwangi",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5396819,
+                    -7.367697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Didepan SDN 4 Pasiripis",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5349068,
+                    -7.3709881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Didepan SDN 5 Paripis",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5299542,
+                    -7.3723521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Didepan SDN Catiritih",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.5101372,
+                    -7.3759663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": "SDN WARUNGWARU",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Baik",
+                "Keterangan Kondisi": null,
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.4781068,
+                    -7.3653094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": "Masjid Jami Nurul Ikhsan",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.4389798,
+                    -7.354352
+                ]
+            }
+        }
+    ]
+}

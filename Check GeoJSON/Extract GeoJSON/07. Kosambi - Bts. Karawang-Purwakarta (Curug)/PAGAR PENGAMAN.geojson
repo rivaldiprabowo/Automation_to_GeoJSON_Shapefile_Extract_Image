@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "name": "PAGAR PENGAMAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Sebelum Flyover Tol Jakarta - Cikampek",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sudah pada Bengkok",
+                "Panjang (m)": "64",
+                "Jenis Pagar Pengaman": "Roller Barrier"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.3723257,
+                        -6.3745821
+                    ],
+                    [
+                        107.372255,
+                        -6.3751109
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Sebelum Flyover Tol Jakarta - Cikampek",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sudah pada Bengkok",
+                "Panjang (m)": "64",
+                "Jenis Pagar Pengaman": "Roller Barrier"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.3723257,
+                        -6.3745821
+                    ],
+                    [
+                        107.372255,
+                        -6.3751109
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Sesudah Flyover Tol Jakarta - Cikampek",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sudah pada Bengkok",
+                "Panjang (m)": "64",
+                "Jenis Pagar Pengaman": "Roller Barrier"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.3721085,
+                        -6.3758401
+                    ],
+                    [
+                        107.3719903,
+                        -6.3762819
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Sesudah Flyover Tol Jakarta - Cikampek",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sudah pada Bengkok",
+                "Panjang (m)": "64",
+                "Jenis Pagar Pengaman": "Roller Barrier"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.3721085,
+                        -6.3758401
+                    ],
+                    [
+                        107.3719903,
+                        -6.3762819
+                    ]
+                ]
+            }
+        }
+    ]
+}

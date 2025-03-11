@@ -1,0 +1,1524 @@
+{
+    "type": "FeatureCollection",
+    "name": "PAGAR PENGAMAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5262301,
+                        -7.0754122
+                    ],
+                    [
+                        106.5261194,
+                        -7.0762917
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5259411,
+                        -7.0770929
+                    ],
+                    [
+                        106.5257003,
+                        -7.0775834
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Tanjakan Jl. Geopark - Palabuhanratu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5244594,
+                        -7.0810649
+                    ],
+                    [
+                        106.5231044,
+                        -7.0812798
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.517344,
+                        -7.0877107
+                    ],
+                    [
+                        106.5171639,
+                        -7.088126
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5156059,
+                        -7.0897863
+                    ],
+                    [
+                        106.5152148,
+                        -7.0904689
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5152148,
+                        -7.0904689
+                    ],
+                    [
+                        106.514953,
+                        -7.0912331
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Depan Pantai Wisata Pancing Desa Sangrawayang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.51371,
+                        -7.0919976
+                    ],
+                    [
+                        106.5133675,
+                        -7.09209
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.512269,
+                        -7.09205
+                    ],
+                    [
+                        106.5114452,
+                        -7.0920489
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5120921,
+                        -7.0920795
+                    ],
+                    [
+                        106.5118188,
+                        -7.0920958
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5113509,
+                        -7.0920512
+                    ],
+                    [
+                        106.5112597,
+                        -7.0920728
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5099043,
+                        -7.0938903
+                    ],
+                    [
+                        106.5099452,
+                        -7.0944987
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5084741,
+                        -7.0960119
+                    ],
+                    [
+                        106.5082231,
+                        -7.0968636
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5072362,
+                        -7.096664
+                    ],
+                    [
+                        106.50662,
+                        -7.0967666
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.5062105,
+                        -7.0973869
+                    ],
+                    [
+                        106.5053969,
+                        -7.0980915
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1065.011985,
+                        -7.0991227
+                    ],
+                    [
+                        106.500751,
+                        -7.0991771
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "18",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.497471,
+                        -7.0998002
+                    ],
+                    [
+                        106.4969014,
+                        -7.100335
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "19",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4945312,
+                        -7.1024338
+                    ],
+                    [
+                        106.4942797,
+                        -7.1017882
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "20",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4933024,
+                        -7.10162
+                    ],
+                    [
+                        106.492595,
+                        -7.101673
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "21",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.485676,
+                        -7.1044114
+                    ],
+                    [
+                        106.4849547,
+                        -7.1047201
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "22",
+                "Detail Lokasi": "Turunan Jl. Geopark Palabuhanratu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4844857,
+                        -7.1062118
+                    ],
+                    [
+                        106.4845011,
+                        -7.1065511
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "23",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4808191,
+                        -7.1130557
+                    ],
+                    [
+                        106.4802782,
+                        -7.113097
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "24",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4802782,
+                        -7.113097
+                    ],
+                    [
+                        106.4802555,
+                        -7.1134187
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "25",
+                "Detail Lokasi": "Tanjakan Jl. Geopark - Palabuhanratu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4803923,
+                        -7.1136474
+                    ],
+                    [
+                        106.4809297,
+                        -7.1143615
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "26",
+                "Detail Lokasi": "Tanjakan Jl. Geopark - Palabuhanratu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4809944,
+                        -7.1144287
+                    ],
+                    [
+                        106.4817757,
+                        -7.1144173
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "27",
+                "Detail Lokasi": "Turunan Jl. Geopark Palabuhanratu",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4811976,
+                        -7.1182521
+                    ],
+                    [
+                        106.480734,
+                        -7.1185067
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "28",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.480734,
+                        -7.1185067
+                    ],
+                    [
+                        106.4802541,
+                        -7.1186738
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "29",
+                "Detail Lokasi": "Belokan Ke Kiri Jl. Bakung Dua",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4788805,
+                        -7.1176292
+                    ],
+                    [
+                        106.478794,
+                        -7.1173774
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "30",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.4785154,
+                        -7.1191769
+                    ],
+                    [
+                        106.4787855,
+                        -7.11985
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "31",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.479764,
+                        -7.121454
+                    ],
+                    [
+                        106.480408,
+                        -7.122367
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "32",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.476511,
+                        -7.121587
+                    ],
+                    [
+                        106.479923,
+                        -7.122524
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "33",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.481081,
+                        -7.130725
+                    ],
+                    [
+                        106.481521,
+                        -7.131555
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "34",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.483056,
+                        -7.13311
+                    ],
+                    [
+                        106.483828,
+                        -7.133248
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "35",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.483409,
+                        -7.134132
+                    ],
+                    [
+                        106.4821,
+                        -7.134483
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "36",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.481596,
+                        -7.135835
+                    ],
+                    [
+                        106.481521,
+                        -7.136367
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "37",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.482043,
+                        -7.13889
+                    ],
+                    [
+                        106.4794681,
+                        -7.13889
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "38",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.483388,
+                        -7.139257
+                    ],
+                    [
+                        106.482326,
+                        -7.140747
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "39",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.483291,
+                        -7.138816
+                    ],
+                    [
+                        106.482368,
+                        -7.140807
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "40",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.482698,
+                        -7.138741
+                    ],
+                    [
+                        106.483068,
+                        -7.139458
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "41",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.48328,
+                        -7.140217
+                    ],
+                    [
+                        106.482028,
+                        -7.140973
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "42",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.482811,
+                        -7.140661
+                    ],
+                    [
+                        106.482017,
+                        -7.140895
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "43",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.481735,
+                        -7.142686
+                    ],
+                    [
+                        106.482776,
+                        -7.143059
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "44",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.48225,
+                        -7.143368
+                    ],
+                    [
+                        106.483881,
+                        -7.143947
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "45",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.483194,
+                        -7.144049
+                    ],
+                    [
+                        106.484632,
+                        -7.145135
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "46",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.484997,
+                        -7.144516
+                    ],
+                    [
+                        106.485963,
+                        -7.145378
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "47",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.484404,
+                        -7.14456
+                    ],
+                    [
+                        106.485885,
+                        -7.145742
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "48",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.484739,
+                        -7.146519
+                    ],
+                    [
+                        106.485597,
+                        -7.14752
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "49",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.48534,
+                        -7.149017
+                    ],
+                    [
+                        106.484149,
+                        -7.149677
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "50",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.484482,
+                        -7.150096
+                    ],
+                    [
+                        106.484986,
+                        -7.151097
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "51",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.484665,
+                        -7.151629
+                    ],
+                    [
+                        106.484032,
+                        -7.152651
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "52",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.486124,
+                        -7.152225
+                    ],
+                    [
+                        106.484043,
+                        -7.153236
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "53",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.479375,
+                        -7.15248
+                    ],
+                    [
+                        106.479311,
+                        -7.153917
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "54",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.47813,
+                        -7.153843
+                    ],
+                    [
+                        106.477722,
+                        -7.154886
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "55",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.478816,
+                        -7.155884
+                    ],
+                    [
+                        106.477239,
+                        -7.156086
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "56",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": "Guardrail"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.476975,
+                        -7.157636
+                    ],
+                    [
+                        106.475972,
+                        -7.157322
+                    ]
+                ]
+            }
+        }
+    ]
+}

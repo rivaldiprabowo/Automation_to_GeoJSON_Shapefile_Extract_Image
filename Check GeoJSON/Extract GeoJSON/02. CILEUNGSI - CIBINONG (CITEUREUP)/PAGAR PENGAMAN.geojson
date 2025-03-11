@@ -1,0 +1,144 @@
+{
+    "type": "FeatureCollection",
+    "name": "PAGAR PENGAMAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Perawatan Perbaikan Guardrail",
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.929545,
+                    -6.456781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Perawatan Perbaikan Guardrail",
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.929398,
+                    -6.456888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.923866,
+                    -6.453572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.923861,
+                    -6.45357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.892401,
+                    -6.462425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.892254,
+                    -6.462449
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "type": "FeatureCollection",
+    "name": "PAGAR PENGAMAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "PERBATASN BANDUNG-GARUT (LEBAKJERO)",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Panjang (m)": null,
+                "Jenis Pagar Pengaman": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.89871,
+                        -7.054243
+                    ],
+                    [
+                        107.89871,
+                        -7.054243
+                    ]
+                ]
+            }
+        }
+    ]
+}

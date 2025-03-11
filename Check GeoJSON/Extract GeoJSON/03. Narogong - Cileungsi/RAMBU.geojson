@@ -1,0 +1,1578 @@
+{
+    "type": "FeatureCollection",
+    "name": "RAMBU_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Sebrang TB. Megah Jaya",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": null,
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Bak",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9761873,
+                    -6.3528518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Depan Pondok Intan 6",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu belok kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Daun Rambu Rusak",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9758283,
+                    -6.3542142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu dilarang Menyalip Kendaraan Lain",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Kurang Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9763525,
+                    -6.361348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9763213,
+                    -6.3614339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Kurang Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.976291,
+                    -6.3615193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Seberang Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Pondasi Lepas",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9762949,
+                    -6.3616393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9757772,
+                    -6.3628823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Seberang Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9757407,
+                    -6.3629645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": "Dekat TB Cileungsi Makmur",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel I 4m",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Larangan Kecepatan Diatas 40 km",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9752852,
+                    -6.3640486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": "Dekat Gardu PLN",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9750416,
+                    -6.364837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": "Dekat Gardu PLN",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Rusak Ringan",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9750416,
+                    -6.364837
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": "Sebelah Mi Ayam Pak'De Wahyu",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu dilarang Menyalip Kendaraan Lain",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9749754,
+                    -6.3651939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": "Depan SD Islam Nurul Fatimah",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Larangan Parkir",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9749486,
+                    -6.3654168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": "Depan SD Islam Nurul Fatimah",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9749049,
+                    -6.3657276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Detail Lokasi": "Samping Bengkel Honda AHASS",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Larangan Parkir",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.97479,
+                    -6.3661524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Detail Lokasi": "Depan Showroom Toyota",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9747203,
+                    -6.3664189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "17",
+                "Detail Lokasi": "Samping PD AGUNG JAYA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6c",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Banyak Anak-Anak",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9712766,
+                    -6.3750901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "18",
+                "Detail Lokasi": "Seberang Berkah Mobilindo",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel V 6b1",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Petunjuk Rumah Sakit",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9711844,
+                    -6.3752279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "19",
+                "Detail Lokasi": "Seberang Toko Fahmi Fotocopy",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 1q",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Pelebaran Badan Jalan di Bagian Kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9710685,
+                    -6.3753759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "20",
+                "Detail Lokasi": "Seberang Toko Fahmi Fotocopy",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel V 6b2",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Lokasi Balai Kesehatan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9710685,
+                    -6.3753759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "21",
+                "Detail Lokasi": "Seberang Rodjak Hospital Cileungsi",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9709765,
+                    -6.375488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "22",
+                "Detail Lokasi": "Warkop Retjeh",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Dilarang Putar Balik",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9698313,
+                    -6.3770421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "23",
+                "Detail Lokasi": "Depan Steam Motor",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 1o",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Peringatan Penyempitan Badan Jalan di Bagian Kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9698118,
+                    -6.376878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "24",
+                "Detail Lokasi": "Seberang MB Teknik Selaras",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk putar arah",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.969485,
+                    -6.3773814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "25",
+                "Detail Lokasi": "Warung Ujang Anggrek ",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": null,
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9687375,
+                    -6.3789921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "27",
+                "Detail Lokasi": "Dekat Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Larangan Parkir",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9687375,
+                    -6.3789921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "28",
+                "Detail Lokasi": "Persimpangan Akses Msuk Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 4a1",
+                "Gambar Rambu": " ",
+                "Nama Rambu": "Peringatan Alat Pemberi Isyarat Lalu Lintas",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.96867,
+                    -6.3791567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "29",
+                "Detail Lokasi": "Persimpangan Akses Msuk Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 4b1",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Peringatan Simpang Empat Prioritas",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9686447,
+                    -6.3792418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "30",
+                "Detail Lokasi": "Persimpangan Akses Msuk Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9686288,
+                    -6.3793291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "31",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.96817,
+                    -6.380489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "32",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.96817,
+                    -6.380489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "33",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680486,
+                    6.3804163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "34",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.968083,
+                    -6.3807529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "35",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680833,
+                    -6.3807529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "36",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk ke kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680833,
+                    6.3807529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "37",
+                "Detail Lokasi": "Persimpangan Akses Keluar Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Dilarang Putar Balik",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680833,
+                    6.3807529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "38",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": null,
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9679678,
+                    -6.3811058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "39",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 4b1",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Peringatan Simpang Empat Prioritas",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9679678,
+                    6.3811058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "40",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9679127,
+                    -6.381282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "41",
+                "Detail Lokasi": "Persimpangan Akses Tol",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 4a1",
+                "Gambar Rambu": " ",
+                "Nama Rambu": "Peringatan Alat Pemberi Isyarat Lalu Lintas",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9678368,
+                    6.3815473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "43",
+                "Detail Lokasi": "Seberang PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": null,
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676054,
+                    -6.3830017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "44",
+                "Detail Lokasi": "Depan PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676143,
+                    6.3831572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "45",
+                "Detail Lokasi": "Depan PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Larangan Parkir",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676782,
+                    -6.3832688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "46",
+                "Detail Lokasi": "Depan PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 1o",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Peringatan Penyempitan Badan Jalan di Bagian Kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9677265,
+                    -6.3835358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "47",
+                "Detail Lokasi": "Seberang PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9676782,
+                    -6.3832688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "48",
+                "Detail Lokasi": "Seberang PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 8a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Hati Hati",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9677265,
+                    -6.3835358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "49",
+                "Detail Lokasi": "Seberang PT.TRAKINDO UTAMA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9677627,
+                    -6.3837129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "50",
+                "Detail Lokasi": "Samping Toko Ibu Ratna",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 4b1",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Peringatan Simpang Empat Prioritas",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9682487,
+                    -6.3861277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "51",
+                "Detail Lokasi": "Seberang PT. BUKAKA",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel III",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu dilarang Menyalip Kendaraan Lain",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Rusak Ringan",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.968502,
+                    6.3870015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "52",
+                "Detail Lokasi": "YPI NURUSHSIBYAN YAPIN",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk Penyebrangan",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9698325,
+                    -6.398489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "53",
+                "Detail Lokasi": "Sebrang Toko Besi dan Baja",
+                "Dokumentasi": null,
+                "Nomor Tabel": null,
+                "Gambar Rambu": null,
+                "Nama Rambu": null,
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9691957,
+                    -6.3990098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "54",
+                "Detail Lokasi": "Samping Apotek Mawar",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 6c",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Banyak Anak-Anak",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": null,
+                "Keterangan Kondisi": "Baik",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9673163,
+                    -6.4004468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "55",
+                "Detail Lokasi": "Sebrang Luth Motor - Bengkel Motor",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel IV 1a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Petunjuk ke kiri",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Rusak Ringan",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.963732,
+                    -6.4040074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "56",
+                "Detail Lokasi": "Sebrang Luth Motor - Bengkel Motor",
+                "Dokumentasi": null,
+                "Nomor Tabel": "Tabel II 8a",
+                "Gambar Rambu": null,
+                "Nama Rambu": "Rambu Hati Hati",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": "Berat",
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9637066,
+                    -6.4040972
+                ]
+            }
+        }
+    ]
+}

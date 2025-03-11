@@ -1,0 +1,505 @@
+{
+    "type": "FeatureCollection",
+    "name": "RAMBU (baru)_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0001389,
+                    -6.2374087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0001389,
+                    -6.2374087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0002656,
+                    -6.2369335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0003562,
+                    -6.2363162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel I 7a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0003562,
+                    -6.2363162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0004145,
+                    -6.2359108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0004229,
+                    -6.235818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0029188,
+                    -6.2305393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 8a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0031193,
+                    -6.2303445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang F"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0034128,
+                    -6.230053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "11",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel III",
+                "Jenis Rambu Larangan": "1",
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0036715,
+                    -6.2297939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "12",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel V",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": null,
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": "1",
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0086803,
+                    -6.2250424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "13",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 8a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0129087,
+                    -6.2230144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "14",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 4a8",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0138744,
+                    -6.2227154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 8a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.021213,
+                    -6.2218572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "16",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 8a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0219144,
+                    -6.2221282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "17",
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Nomor Tabel": null,
+                "Gambar Rambu": "#VALUE!",
+                "Nama Rambu": "tabel II 8a",
+                "Jenis Rambu Larangan": null,
+                "Jenis Rambu Peringatan": "1",
+                "Jenis Rambu Perintah": null,
+                "Jenis Rambu Petunjuk": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Tipe Rambu": "Tiang Tunggal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0278031,
+                    -6.2214536
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "No": "COL_000",
+    "Detail Lokasi": "COL_001",
+    "Dokumentasi": "COL_002",
+    "Tahun Anggaran": "COL_003",
+    "Titik Kordinat Akhir Latitude": "COL_004",
+    "Titik Kordinat Akhir Longitude": "COL_005",
+    "Lokasi Pemasangan Kiri": "COL_006",
+    "Lokasi Pemasangan Kanan": "COL_007",
+    "Kondisi": "COL_008",
+    "Keterangan Kondisi": "COL_009",
+    "Panjang (m)": "COL_010",
+    "Jenis Pagar Pengaman": "COL_011",
+    "Geometry": "COL_012"
+}

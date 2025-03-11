@@ -1,0 +1,17 @@
+{
+    "No": "COL_000",
+    "Detail Lokasi": "COL_001",
+    "Dokumentasi": "COL_002",
+    "Jenis Rambu Larangan": "COL_003",
+    "Jenis Rambu Peringatan": "COL_004",
+    "Jenis Rambu Perintah": "COL_005",
+    "Jenis Rambu Petunjuk": "COL_006",
+    "Tahun Anggaran": "COL_007",
+    "Lokasi Pemasangan Kiri": "COL_008",
+    "Lokasi Pemasangan Tengah": "COL_009",
+    "Lokasi Pemasangan Kanan": "COL_010",
+    "Kondisi": "COL_011",
+    "Keterangan Kondisi": "COL_012",
+    "Tipe Rambu": "COL_013",
+    "Geometry": "COL_014"
+}

@@ -1,0 +1,78 @@
+{
+    "type": "FeatureCollection",
+    "name": "WARNING LIGHT_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang Lurus/Tunggal",
+                "Jenis Sumber Daya": "Solar Cell"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.174475,
+                    -6.273457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang Lurus/Tunggal",
+                "Jenis Sumber Daya": "Solar Cell"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.155747,
+                    -6.287455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang Lurus/Tunggal",
+                "Jenis Sumber Daya": "Solar Cell"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.15478,
+                    -6.288037
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "FeatureCollection",
+    "name": "FAS PENYEBERANGAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Samping Bogor Trade Mall",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7960325,
+                    -6.6053505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Depan Ruko",
+                "Dokumentasi": null,
+                "Tahun Anggaran Pilih Salah Satu": "Tidak Diketahui",
+                "Jenis Penyeberangan Pilih Salah Satu": "Zebra Cross",
+                "Kondisi Pilih Salah Satu": "Rusak Ringan",
+                "Keterangan Kondisi": "Pudar",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.7952367,
+                    -6.6068157
+                ]
+            }
+        }
+    ]
+}

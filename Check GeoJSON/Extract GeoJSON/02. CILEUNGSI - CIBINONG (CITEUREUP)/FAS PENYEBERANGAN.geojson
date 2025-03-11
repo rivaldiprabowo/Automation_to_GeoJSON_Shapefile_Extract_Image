@@ -1,0 +1,172 @@
+{
+    "type": "FeatureCollection",
+    "name": "FAS PENYEBERANGAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.958007,
+                    -6.436243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.956455,
+                    -6.437951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.954125,
+                    -6.438697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.94583,
+                    -6.443138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.941383,
+                    -6.443295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.941017,
+                    -6.443477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.940328,
+                    -6.443987
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Zebra Cross",
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "  Pudar \n",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.935454,
+                    -6.449842
+                ]
+            }
+        }
+    ]
+}

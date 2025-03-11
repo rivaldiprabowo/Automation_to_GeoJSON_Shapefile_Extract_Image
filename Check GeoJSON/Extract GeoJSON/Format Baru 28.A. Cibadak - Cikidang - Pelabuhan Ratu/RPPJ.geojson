@@ -1,0 +1,298 @@
+{
+    "type": "FeatureCollection",
+    "name": "RPPJ_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Depan Kantor Desa Pamuruyan Kec. Cikidang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Tiang Rambu Bengkok",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.89871,
+                    -7.054243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Turunan Lebakjero",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.762083,
+                    -6.8785168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Daun rambu sudah bengkok",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1067.758488,
+                    -6.878794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Depan Gardu Listrik",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Warna ACP sudah pudar",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.736531,
+                    -6.874498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Depan Bank Mandiri",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.735766,
+                    -6.8744531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "6",
+                "Detail Lokasi": "Pertigaan ke daerah Kelapa Nnggal",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.730696,
+                    -6.8745171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "7",
+                "Detail Lokasi": "Pertigaan ke daerah Kelapa Nnggal",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.728524,
+                    -6.8747646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "8",
+                "Detail Lokasi": "Di Samping Kantor Desa Pangkalan",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Warna ACP sudah pudar",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.726158,
+                    -68.751603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "9",
+                "Detail Lokasi": "Terminal Cikidang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Warna ACP sudah pudar",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.646882,
+                    -68.961898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "10",
+                "Detail Lokasi": "Terminal Cikidang",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Ringan",
+                "Keterangan Kondisi": "Warna ACP sudah pudar",
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1066.465591,
+                    -68.9622831066465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "15",
+                "Detail Lokasi": null,
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Lokasi Pemasangan Kiri": "1",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "bAIK",
+                "Keterangan Kondisi": null,
+                "Jenis Tiang": "Tiang F",
+                "Column_12": null,
+                "Column_13": null,
+                "Column_14": null,
+                "Column_15": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1065.663103,
+                    69.696783
+                ]
+            }
+        }
+    ]
+}

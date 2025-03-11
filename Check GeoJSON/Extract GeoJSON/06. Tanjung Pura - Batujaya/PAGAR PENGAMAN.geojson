@@ -1,0 +1,157 @@
+{
+    "type": "FeatureCollection",
+    "name": "PAGAR PENGAMAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Samping Sungai",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Panjang (m)": "30",
+                "Jenis Pagar Pengaman": "Guardrail",
+                "Column_14": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.2967781,
+                        -6.1419255
+                    ],
+                    [
+                        107.2963602,
+                        -6.1416473
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Sebrang Toko Buah Suci 4",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "Baik",
+                "Panjang (m)": "15",
+                "Jenis Pagar Pengaman": "Guardrail",
+                "Column_14": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.2525528,
+                        -6.1040322
+                    ],
+                    [
+                        107.2524216,
+                        -6.1036892
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Sebrang Rumah Gedong",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": "ada corat-coret dari pilok",
+                "Panjang (m)": "10",
+                "Jenis Pagar Pengaman": "Guardrail",
+                "Column_14": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.25218,
+                        -6.1031973
+                    ],
+                    [
+                        107.2519944,
+                        -6.1028863
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Dekat TPU Dusun Kramat Jaya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": "10",
+                "Jenis Pagar Pengaman": "Guardrail",
+                "Column_14": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.2048793,
+                        -6.090633
+                    ],
+                    [
+                        107.2046179,
+                        -6.0905299
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "5",
+                "Detail Lokasi": "Sebrang bengkel motor",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Kiri": null,
+                "Lokasi Pemasangan Kanan": "1",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang (m)": "15",
+                "Jenis Pagar Pengaman": "Roller Barrier",
+                "Column_14": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.186541,
+                        -6.0731374
+                    ],
+                    [
+                        107.1861427,
+                        -6.0730074
+                    ]
+                ]
+            }
+        }
+    ]
+}

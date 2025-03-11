@@ -1,0 +1,72 @@
+{
+    "type": "FeatureCollection",
+    "name": "FAS PENYEBERANGAN_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "Depan Pabrik Reckitt",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Penyeberangan": "Rusak Ringan",
+                "Kondisi": "ZEBRA CROSS",
+                "Keterangan Kondisi": "RUSAK RINGAN",
+                "Column_9": "Tambahkan pada kebutuhan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9762949,
+                    -6.3616393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Kantor WIKA ",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Jenis Penyeberangan": "Baik",
+                "Kondisi": "ZEBRA CROSS",
+                "Keterangan Kondisi": "Baik",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9680833,
+                    -6.3807529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Samping Warung Tegal Sidodadi Bahari",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Jenis Penyeberangan": "Baik",
+                "Kondisi": "ZEBRA CROSS",
+                "Keterangan Kondisi": "Baik",
+                "Column_9": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9636754,
+                    -6.4042748
+                ]
+            }
+        }
+    ]
+}

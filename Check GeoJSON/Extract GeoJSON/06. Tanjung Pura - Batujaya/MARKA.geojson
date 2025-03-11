@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "PATOK PERBATASAN JL. PROKLAMASI DAN JL. TANJUNG PURA",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "Marka Tepi & Tengah",
+                "Kondisi": "Pudar",
+                "Keterangan Kondisi": "Memudar",
+                "Panjang Marka (m)": null,
+                "Column_12": null
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        107.2777369,
+                        -6.2634547
+                    ],
+                    [
+                        107.2786853,
+                        -6.2579759
+                    ]
+                ]
+            }
+        }
+    ]
+}

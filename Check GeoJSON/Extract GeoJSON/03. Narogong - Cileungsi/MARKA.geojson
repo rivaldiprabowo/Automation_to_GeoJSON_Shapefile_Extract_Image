@@ -1,0 +1,128 @@
+{
+    "type": "FeatureCollection",
+    "name": "MARKA_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "1",
+                "Detail Lokasi": "PT Inamulti Intipack",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Jenis Marka": "MARKA TEPI & TENGAH",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "350",
+                "Column_12": null,
+                "Column_19": "-6.3586085,106.9764767",
+                "Column_20": "-6.3618638,106.9762098"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9764767,
+                        -6.3586085
+                    ],
+                    [
+                        106.9762098,
+                        -6.3618638
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "2",
+                "Detail Lokasi": "Bengkel Las Panja Karya",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Jenis Marka": "MARKA TEPI & TENGAH",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "1400",
+                "Column_12": "Marka Tepi Pudar, tambahkan pada kebutuhan",
+                "Column_19": "-6.3744721,106.9716638",
+                "Column_20": "-6.3855098,106.9680885"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9716638,
+                        -6.3744721
+                    ],
+                    [
+                        106.9680885,
+                        -6.3855098
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "3",
+                "Detail Lokasi": "Depan PT Conpac",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Jenis Marka": "MARKA TEPI & TENGAH",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "28",
+                "Column_12": null,
+                "Column_19": "-6.3917854,106.9693021",
+                "Column_20": "-6.392047,106.9693864"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9693021,
+                        -6.3917854
+                    ],
+                    [
+                        106.9704697,
+                        -6.3974242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "4",
+                "Detail Lokasi": "Warteg Sri Samiasi",
+                "Dokumentasi": null,
+                "Tahun Anggaran": null,
+                "Jenis Marka": "MARKA TEPI",
+                "Kondisi": "Baik",
+                "Keterangan Kondisi": null,
+                "Panjang Marka (m)": "600",
+                "Column_12": null,
+                "Column_19": "-6.392047,106.9693864",
+                "Column_20": "-6.3974242,106.9704697"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        106.9693864,
+                        -6.392047
+                    ],
+                    [
+                        106.9693021,
+                        -6.3917854
+                    ]
+                ]
+            }
+        }
+    ]
+}
