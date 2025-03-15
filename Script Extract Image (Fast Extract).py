@@ -247,8 +247,8 @@ def process_excel_folder(folder_path, export_folder):
 # ### 2.2. Run Function
 
 # %%
-excel_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\Excel Folder"  # Path to Excel files
-export_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\check_photo"  # Path for export results
+excel_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Path to Excel files
+export_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export Images"  # Path for export results
         
 # Run the function with your paths
 process_excel_folder(excel_folder, export_folder)
