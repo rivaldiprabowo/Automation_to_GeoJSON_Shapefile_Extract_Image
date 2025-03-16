@@ -18,9 +18,8 @@ class ConversionThread(QThread):
         self.out_directory_path = out_directory_path
         self.running = True
 
-    # how process_single_file(self, file_path) is used directory_path, and self.log_callback? why? how this works?
     def run(self):
-        processor = Process(self.out_directory_path)
+        processor = Process(self.out_directory_path, self.progress.emit)
         try:
             if self.file_path:
                 self.log_message.emit(f"Processing file: {self.file_path}")
@@ -128,6 +127,7 @@ class Main(QMainWindow):
         self.ui.textLog.append("Converision finished.")
         self.ui.btnConvert.setEnabled(True)
         self.ui.btnCancel.setEnabled(False)
+        self.ui.progressBar.setValue(0)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
