@@ -2,9 +2,82 @@
 # # Automation Excel to GeoJSON and Shapefile
 
 # %% [markdown]
-# ## 1. Import Library
+# ## 1. Application to Export Excel into GeoJson
+
+# %% [markdown]
+# ### 1.1. Function Codes
 
 # %%
+import sys
+import subprocess
+import pkg_resources
+
+def install_requirements(): #Install required packages if they are not already installed.
+    required = {
+        'pandas': '1.0.0',
+        'openpyxl': '3.0.0',
+        'geopandas': '0.9.0',
+        'shapely': '1.7.0',
+    }
+    
+    # Check what's installed
+    installed = {pkg.key: pkg.version for pkg in pkg_resources.working_set}
+    
+    # Determine what needs to be installed
+    missing = []
+    update = []
+    
+    for package, min_version in required.items():
+        if package not in installed:
+            missing.append(package)
+        elif pkg_resources.parse_version(installed[package]) < pkg_resources.parse_version(min_version):
+            update.append(package)
+    
+    # If packages need to be installed or updated
+    if missing or update:
+        print("Some required packages are missing or need to be updated.")
+        print(f"Missing: {', '.join(missing) if missing else 'None'}")
+        print(f"Need update: {', '.join(update) if update else 'None'}")
+        
+        try:
+            # Install missing packages
+            if missing:
+                print(f"Installing missing packages: {', '.join(missing)}")
+                subprocess.check_call([sys.executable, "-m", "pip", "install"] + missing)
+            
+            # Update packages that need updating
+            if update:
+                print(f"Updating packages: {', '.join(update)}")
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade"] + update)
+                
+            print("All required packages have been installed/updated successfully!")
+            
+            # Re-import the modules to make them available
+            if 'pandas' in missing or 'pandas' in update:
+                global pd
+                import pandas as pd
+            if 'openpyxl' in missing or 'openpyxl' in update:
+                global load_workbook
+                from openpyxl import load_workbook
+            if 'geopandas' in missing or 'geopandas' in update:
+                global gpd
+                import geopandas as gpd
+            if 'shapely' in missing or 'shapely.geometry' in update:
+                global Point, LineString
+                from shapely.geometry import Point, LineString
+                
+        except Exception as e:
+            print(f"Failed to install required packages: {str(e)}")
+            print("Please manually install the required packages using:")
+            print("pip install pandas openpyxl geopandas shapely")
+            sys.exit(1)
+
+
+if __name__ == "__main__": # Run the requirements check at the beginning
+    install_requirements()
+
+install_requirements()
+
 import pandas as pd
 from openpyxl import load_workbook
 import geopandas as gpd
@@ -14,13 +87,6 @@ import glob
 import os
 from pathlib import Path
 
-# %% [markdown]
-# ## 2. Application to Export Excel into GeoJson
-
-# %% [markdown]
-# ### 2.1. Function Codes
-
-# %%
 def unique_column_names(columns): # Ensure column names are unique by appending suffix.
     seen = {}
     new_columns = []
@@ -67,11 +133,75 @@ def clean_column_names(columns): # Standardize column names by capitalizing each
 
 def fix_coordinates(row, lat_col, lon_col): #Fix latitude and longitude values that may be in the wrong format.
     lat, lon = row[lat_col], row[lon_col]
-    if pd.notna(lat) and abs(lat) > 90:
-        lat /= 1_000_000
-    if pd.notna(lon) and abs(lon) > 180:
-        lon /= 1_000_000
+    original_lat, original_lon = lat, lon  # Store original values for debugging
+    
+    # Handle string values with commas (e.g., "-69,694,951" or "1,065,663,308")
+    if isinstance(lat, str):
+        try:
+            lat = float(lat.replace(',', ''))
+        except (ValueError, AttributeError):
+            lat = pd.NA
+    
+    if isinstance(lon, str):
+        try:
+            lon = float(lon.replace(',', ''))
+        except (ValueError, AttributeError):
+            lon = pd.NA
+    
+    # First attempt to detect the scale by number of digits
+    if pd.notna(lat):
+        lat_abs = abs(lat)
+        # For values like -6448977 (which should be around -6.4 degrees)
+        if 1_000_000 < lat_abs < 10_000_000 and str(int(lat_abs)).startswith(('6', '7', '8', '9')):
+            lat = lat / 1_000_000
+        elif lat_abs > 90:
+            # General scaling rules based on magnitude
+            if lat_abs > 10_000_000:  # Very large values
+                lat = lat / 10_000_000
+            elif lat_abs > 1_000_000:  # Large values (common for Indonesia coords)
+                lat = lat / 1_000_000
+            elif lat_abs > 90_000:
+                lat = lat / 1_000
+    
+    if pd.notna(lon):
+        lon_abs = abs(lon)
+        # For Indonesian longitudes (usually around 106-110 degrees)
+        if 100_000_000 < lon_abs < 1_500_000_000:
+            lon = lon / 10_000_000
+        elif lon_abs > 180:
+            # General scaling rules based on magnitude
+            if lon_abs > 10_000_000:
+                lon = lon / 10_000_000
+            elif lon_abs > 1_000_000:
+                lon = lon / 1_000_000
+            elif lon_abs > 180_000:
+                lon = lon / 1_000
+    
+    # Final validation with better error reporting
+    if pd.notna(lat) and (lat < -90 or lat > 90):
+        print(f"Warning: Invalid latitude after correction: {lat} (original: {original_lat})")
+        
+        # Last attempt for specific problematic values
+        if -10000 < lat < -90 or 90 < lat < 10000:
+            lat = lat / 100
+            print(f"  Attempting additional scaling: now {lat}")
+        
+        if lat < -90 or lat > 90:  # Still invalid
+            lat = pd.NA
+    
+    if pd.notna(lon) and (lon < -180 or lon > 180):
+        print(f"Warning: Invalid longitude after correction: {lon} (original: {original_lon})")
+        
+        # Last attempt for specific problematic values
+        if -18000 < lon < -180 or 180 < lon < 18000:
+            lon = lon / 100
+            print(f"  Attempting additional scaling: now {lon}")
+            
+        if lon < -180 or lon > 180:  # Still invalid
+            lon = pd.NA
+        
     return pd.Series([lat, lon])
+
 
 def clean_geojson(gdf, output_path):  # Save GeoDataFrame in a clean format GeoJSON file.
     temp_path = output_path.replace(".geojson", "_temp.geojson")
@@ -85,16 +215,8 @@ def clean_geojson(gdf, output_path):  # Save GeoDataFrame in a clean format GeoJ
 
     print(f"✅ Saved: {output_path}")
 
-def find_coordinate_columns(df, prefix, column_type): 
-    """
-    Find coordinate columns with various naming patterns
-    
-    df: DataFrame to search
-    prefix: 'start' or 'end' to indicate which endpoint to find
-    column_type: 'lat' or 'lon' to indicate latitude or longitude
-    
-    Returns: Column name if found, None otherwise
-    """
+def find_coordinate_columns(df, prefix, column_type): #Find coordinate columns with various naming patterns returns column name if found, None otherwise
+
     patterns = []
     
     if prefix == 'start':
@@ -391,6 +513,15 @@ def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from
             print(f"⚠️ Skipping '{sheet_name}' (No valid geometry found)")
             continue  # Skip processing this sheet if no valid geometries exist
 
+
+def cleanup_temp_files(output_folder): # Delete temporary files
+    for temp_file in glob.glob(os.path.join(output_folder, "**/*_temp.geojson"), recursive=True):
+        try:
+            os.remove(temp_file)
+        except Exception as e:
+            print(f"Error removing temporary file {temp_file}: {str(e)}")
+
+
 def process_excel_folder(input_folder, output_base_folder): #Process all Excel files in a folder and convert them to GeoJSON
     
     # Create the 'Extract GeoJSON' folder inside the output folder
@@ -428,30 +559,101 @@ def process_excel_folder(input_folder, output_base_folder): #Process all Excel f
     # Clean up temporary files
     cleanup_temp_files(output_folder)
 
-# Delete temporary files
-def cleanup_temp_files(output_folder):
-    for temp_file in glob.glob(os.path.join(output_folder, "**/*_temp.geojson"), recursive=True):
-        try:
-            os.remove(temp_file)
-            print(f"Removed temporary file: {temp_file}")
-        except Exception as e:
-            print(f"Error removing temporary file {temp_file}: {str(e)}")
-
 # %% [markdown]
-# ### 2.2. Run Function Excel to GeoJSON
+# ### 1.2. Run Function Excel to GeoJSON
 
 # %%
-input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\Excel Folder"  # Fill with the path file of excel
-output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\Check GeoJSON"  # Fill with the path folder of export result
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Fill with the path file of excel
+output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Fill with the path folder of export result
 process_excel_folder(input_folder, output_base_folder) # Run the function!
 
 # %% [markdown]
-# ## 3. Application to Export Excel into Shapefile
+# ## 2. Application to Export Excel into Shapefile
 
 # %% [markdown]
-# ### 3.1. Function Codes
+# ### 2.1. Function Codes
 
 # %%
+import sys
+import subprocess
+import pkg_resources
+
+def install_requirements(): #Install required packages if they are not already installed.
+    required = {
+        'pandas': '1.0.0',
+        'openpyxl': '3.0.0',
+        'geopandas': '0.9.0',
+        'shapely': '1.7.0',
+    }
+    
+    # Check what's installed
+    installed = {pkg.key: pkg.version for pkg in pkg_resources.working_set}
+    
+    # Determine what needs to be installed
+    missing = []
+    update = []
+    
+    for package, min_version in required.items():
+        if package not in installed:
+            missing.append(package)
+        elif pkg_resources.parse_version(installed[package]) < pkg_resources.parse_version(min_version):
+            update.append(package)
+    
+    # If packages need to be installed or updated
+    if missing or update:
+        print("Some required packages are missing or need to be updated.")
+        print(f"Missing: {', '.join(missing) if missing else 'None'}")
+        print(f"Need update: {', '.join(update) if update else 'None'}")
+        
+        try:
+            # Install missing packages
+            if missing:
+                print(f"Installing missing packages: {', '.join(missing)}")
+                subprocess.check_call([sys.executable, "-m", "pip", "install"] + missing)
+            
+            # Update packages that need updating
+            if update:
+                print(f"Updating packages: {', '.join(update)}")
+                subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade"] + update)
+                
+            print("All required packages have been installed/updated successfully!")
+            
+            # Re-import the modules to make them available
+            if 'pandas' in missing or 'pandas' in update:
+                global pd
+                import pandas as pd
+            if 'openpyxl' in missing or 'openpyxl' in update:
+                global load_workbook
+                from openpyxl import load_workbook
+            if 'geopandas' in missing or 'geopandas' in update:
+                global gpd
+                import geopandas as gpd
+            if 'shapely' in missing or 'shapely.geometry' in update:
+                global Point, LineString
+                from shapely.geometry import Point, LineString
+                
+        except Exception as e:
+            print(f"Failed to install required packages: {str(e)}")
+            print("Please manually install the required packages using:")
+            print("pip install pandas openpyxl geopandas shapely")
+            sys.exit(1)
+
+
+if __name__ == "__main__": # Run the requirements check at the beginning
+    install_requirements()
+
+install_requirements()
+
+import pandas as pd
+from openpyxl import load_workbook
+import geopandas as gpd
+from shapely.geometry import Point, LineString
+import json
+import glob
+import os
+from pathlib import Path
+
+
 def unique_column_names(columns): # Ensure column names are unique by appending suffix.
     seen = {}
     new_columns = []
@@ -502,19 +704,78 @@ def clean_column_names(columns): # Standardize column names by capitalizing each
 
 def fix_coordinates(row, lat_col, lon_col): #Fix latitude and longitude values that may be in the wrong format.
     lat, lon = row[lat_col], row[lon_col]
-    if pd.notna(lat) and abs(lat) > 90:
-        lat /= 1_000_000
-    if pd.notna(lon) and abs(lon) > 180:
-        lon /= 1_000_000
+    original_lat, original_lon = lat, lon  # Store original values for debugging
+    
+    # Handle string values with commas (e.g., "-69,694,951" or "1,065,663,308")
+    if isinstance(lat, str):
+        try:
+            lat = float(lat.replace(',', ''))
+        except (ValueError, AttributeError):
+            lat = pd.NA
+    
+    if isinstance(lon, str):
+        try:
+            lon = float(lon.replace(',', ''))
+        except (ValueError, AttributeError):
+            lon = pd.NA
+    
+    # First attempt to detect the scale by number of digits
+    if pd.notna(lat):
+        lat_abs = abs(lat)
+        # For values like -6448977 (which should be around -6.4 degrees)
+        if 1_000_000 < lat_abs < 10_000_000 and str(int(lat_abs)).startswith(('6', '7', '8', '9')):
+            lat = lat / 1_000_000
+        elif lat_abs > 90:
+            # General scaling rules based on magnitude
+            if lat_abs > 10_000_000:  # Very large values
+                lat = lat / 10_000_000
+            elif lat_abs > 1_000_000:  # Large values (common for Indonesia coords)
+                lat = lat / 1_000_000
+            elif lat_abs > 90_000:
+                lat = lat / 1_000
+    
+    if pd.notna(lon):
+        lon_abs = abs(lon)
+        # For Indonesian longitudes (usually around 106-110 degrees)
+        if 100_000_000 < lon_abs < 1_500_000_000:
+            lon = lon / 10_000_000
+        elif lon_abs > 180:
+            # General scaling rules based on magnitude
+            if lon_abs > 10_000_000:
+                lon = lon / 10_000_000
+            elif lon_abs > 1_000_000:
+                lon = lon / 1_000_000
+            elif lon_abs > 180_000:
+                lon = lon / 1_000
+    
+    # Final validation with better error reporting
+    if pd.notna(lat) and (lat < -90 or lat > 90):
+        print(f"Warning: Invalid latitude after correction: {lat} (original: {original_lat})")
+        
+        # Last attempt for specific problematic values
+        if -10000 < lat < -90 or 90 < lat < 10000:
+            lat = lat / 100
+            print(f"  Attempting additional scaling: now {lat}")
+        
+        if lat < -90 or lat > 90:  # Still invalid
+            lat = pd.NA
+    
+    if pd.notna(lon) and (lon < -180 or lon > 180):
+        print(f"Warning: Invalid longitude after correction: {lon} (original: {original_lon})")
+        
+        # Last attempt for specific problematic values
+        if -18000 < lon < -180 or 180 < lon < 18000:
+            lon = lon / 100
+            print(f"  Attempting additional scaling: now {lon}")
+            
+        if lon < -180 or lon > 180:  # Still invalid
+            lon = pd.NA
+        
     return pd.Series([lat, lon])
 
-def save_shapefile(gdf, output_path): 
-    """
-    Save GeoDataFrame to Shapefile format with warnings suppressed
+
+def save_shapefile(gdf, output_path): #Save GeoDataFrame to Shapefile format with warnings suppressed
     
-    gdf: GeoDataFrame to save
-    output_path: Path where to save the shapefile
-    """
     try:
         # Truncate column names to 10 characters ourselves to avoid warnings
         # This proactively handles the limitation rather than relying on geopandas/pyogrio to do it
@@ -554,16 +815,7 @@ def save_shapefile(gdf, output_path):
     except Exception as e:
         print(f"❌ Error saving shapefile {output_path}: {str(e)}")
 
-def find_coordinate_columns(df, prefix, column_type):
-    """
-    Find coordinate columns with various naming patterns
-    
-    df: DataFrame to search
-    prefix: 'start' or 'end' to indicate which endpoint to find
-    column_type: 'lat' or 'lon' to indicate latitude or longitude
-    
-    Returns Column name if found, None otherwise
-    """
+def find_coordinate_columns(df, prefix, column_type): # Find coordinate columns with various naming patterns returns column name if found, None otherwise
     patterns = []
     
     if prefix == 'start':
@@ -895,9 +1147,11 @@ def process_excel_folder(input_folder, output_base_folder): # Process all Excel 
     print(f"\n🎉 All Excel files processed. Output saved to: {output_folder}")
 
 # %% [markdown]
-# ### 3.2. Run Function Excel to Shapefile
+# ### 2.2. Run Function Excel to Shapefile
 
 # %%
-input_folder = r"D:\Work\2025_LALIN\AutomateConversion\Data\UPTDs\UPTD I\Eksisting"  # Fill with the path file of excel
-output_base_folder = r"C:\Users\Widia\source\repos\Automation_to_GeoJSON_Shapefile_Extract_Image\Demo_Output"  # Fill with the path folder of export result
-process_excel_folder(input_folder, output_base_folder) # Run the function!``
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Fill with the path file of excel
+output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Fill with the path folder of export result
+process_excel_folder(input_folder, output_base_folder) # Run the function!
+
+
