@@ -898,8 +898,6 @@ def process_excel_folder(input_folder, output_base_folder): # Process all Excel 
 # ### 3.2. Run Function Excel to Shapefile
 
 # %%
-input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\Excel Folder"  # Fill with the path file of excel
-output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Automation Codes\Check GeoJSON"  # Fill with the path folder of export result
-process_excel_folder(input_folder, output_base_folder) # Run the function!
-
-
+input_folder = r"D:\Work\2025_LALIN\AutomateConversion\Data\UPTDs\UPTD I\Eksisting"  # Fill with the path file of excel
+output_base_folder = r"C:\Users\Widia\source\repos\Automation_to_GeoJSON_Shapefile_Extract_Image\Demo_Output"  # Fill with the path folder of export result
+process_excel_folder(input_folder, output_base_folder) # Run the function!``
