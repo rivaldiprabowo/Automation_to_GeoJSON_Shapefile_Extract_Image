@@ -7,15 +7,25 @@ from openpyxl_image_loader import SheetImageLoader
 import json
 
 class ExcelConverter:
-    def __init__(self, output_folder="converted_output") -> None:
+    def __init__(self, output_folder, log_callback = None, progress_callback = None) -> None:
         self.output_folder = output_folder
-        os.makedirs(self.output_folder, exist_ok=True)
+        self.log_callback = log_callback
+        self.progress_callback = progress_callback
         self.list_df = {}
+
+    def _update_progress(self, percent):
+        if self.progress_callback:
+            self.progress_callback(percent)
+
+    def _log(self, message):
+        if self.log_callback:
+            self.log_callback(message)
 
     def load_excel_file(self, file_path):
         """
         Loads the Excel file and extracts each sheet into each DataFrames.
         """
+        self._update_progress(20)
         xl = pd.ExcelFile(file_path)
 
         for sheet in xl.sheet_names:
@@ -47,6 +57,8 @@ class ExcelConverter:
 
             # Drop completely empty columns (after extracting images)
             self.list_df[sheet] = df.dropna(how="all", subset=df.columns[1:])
+
+        self._update_progress(40)
 
     def extract_images(self, file_path, df, sheet_name):
         """
@@ -82,12 +94,12 @@ class ExcelConverter:
                         # Store the image path in the DataFrame
                         self.list_df[sheet_name].loc[row - 6, "DOKUMENTASI"] = image_path  
                 except Exception as e:
-                    print(f"⚠️ Warning: Could not process image at {cell_address} in sheet {sheet_name}. Error: {e}")
+                    self._log(f"⚠️ Warning: Could not process image at {cell_address} in sheet {sheet_name}. Error: {e}")
                     self.list_df[sheet_name].loc[row - 6, "DOKUMENTASI"] = "Image extraction failed"
 
         # Close the workbook **after** all processing is done
         pxl_doc.close()
-
+        self._update_progress(60)
     
     def convert_to_geojson(self, output_path):
         """
@@ -114,6 +126,8 @@ class ExcelConverter:
             with open(geojson_path, "w", encoding="utf-8") as f:
                 json.dump(geojson_data, f, ensure_ascii=False, indent=4)
 
+        self._update_progress(80)
+
     def convert_to_shapefile(self, output_path):
         """
         Converts DataFrames to Shapefile format using GeoPandas.
@@ -131,4 +145,6 @@ class ExcelConverter:
                 shapefile_path = os.path.join(shapefile_folder, table_name)
 
                 gdf.to_file(shapefile_path, driver="ESRI Shapefile")
+
+        self._update_progress(80)
 
