@@ -32,21 +32,28 @@ from collections import defaultdict
 # ### 2.1. Function Codes
 
 # %%
-def extract_images_from_excel(file_path, output_folder):
-    """Extract images from columns containing specific keywords in all sheets and save them."""
-    import re
-    import os
-    import io
-    import pandas as pd
-    from openpyxl import load_workbook
-    from openpyxl_image_loader import SheetImageLoader
-    from openpyxl.utils import get_column_letter, column_index_from_string
-    
+import re
+import os
+import io
+import pandas as pd
+from openpyxl import load_workbook
+from openpyxl_image_loader import SheetImageLoader
+from openpyxl.utils import get_column_letter
+
+def extract_images_from_excel(file_path, output_folder): #Extract images from columns containing specific keywords in all sheets and save them.
+
     # Keywords to look for in column names
     KEYWORDS = ["DOKUMENTASI", "RAMBU", "RPPJ"]
     
+    # Extract filename from path for folder creation
+    file_name_clean = re.search(r'([^\\]+)\.xlsx$', file_path)
+    if file_name_clean:
+        file_name_clean = file_name_clean.group(1)
+    else:
+        file_name_clean = os.path.basename(file_path).replace('.xlsx', '')
+    
     # Create subdirectories for each category
-    dokumentasi_folder = os.path.join(output_folder, "Dokumentasi")
+    dokumentasi_folder = os.path.join(output_folder, "Dokumentasi", file_name_clean)  # Changed - nested under Excel name
     rambu_folder = os.path.join(output_folder, "Rambu")
     rppj_folder = os.path.join(output_folder, "RPPJ")
     
@@ -54,17 +61,10 @@ def extract_images_from_excel(file_path, output_folder):
         os.makedirs(folder, exist_ok=True)
     
     try:
-        # Extract filename from path
-        file_name_clean = re.search(r'([^\\]+)\.xlsx$', file_path)
-        if file_name_clean:
-            file_name_clean = file_name_clean.group(1)
-        else:
-            file_name_clean = os.path.basename(file_path).replace('.xlsx', '')
-        
         # Process each sheet independently to prevent file handle issues
         wb = load_workbook(file_path, data_only=True)
-        sheet_names = wb.sheetnames.copy()  # Make a copy of sheet names before closing
-        wb.close()  # Close immediately to avoid keeping file handles open
+        sheet_names = wb.sheetnames.copy()
+        wb.close()
         
         successful_sheets = 0
         total_images_saved = 0
@@ -85,7 +85,6 @@ def extract_images_from_excel(file_path, output_folder):
                 image_loader = SheetImageLoader(ws)
                 
                 # Step 1: Extract merged column headers from rows 1-5
-                # This creates a mapping from column index to full column name
                 column_names = {}
                 
                 # Get values for rows 1-5 for each column
@@ -138,7 +137,6 @@ def extract_images_from_excel(file_path, output_folder):
                 }
                 
                 # Process each category separately
-                
                 # 1. Process DOKUMENTASI columns
                 if dokumentasi_columns:
                     processed = process_image_columns(
@@ -200,14 +198,8 @@ def extract_images_from_excel(file_path, output_folder):
         print(f"❌ Error processing file '{file_path}': {str(e)}")
         return False
 
-
 def process_image_columns(ws, image_loader, target_columns, output_folder, file_name_clean, 
-                          safe_sheet_name, category, nama_rambu_column, jenis_tiang_column):
-    """Process images in specified columns with custom naming logic."""
-    import re
-    import os
-    import io
-    from openpyxl.utils import get_column_letter
+                          safe_sheet_name, category, nama_rambu_column, jenis_tiang_column): #Process images in specified columns with custom naming logic.
     
     # Track existing image names (to avoid duplicates for Rambu)
     existing_images = {}
@@ -321,11 +313,35 @@ def process_image_columns(ws, image_loader, target_columns, output_folder, file_
     
     return successful_images
 
-
-def process_excel_folder(folder_path, export_folder):
-    """Process all Excel files in a folder and extract images from them."""
-    import os
+def process_single_excel_file(file_path, export_folder): #Process a single Excel file and extract images from it.
+    # Create "Extract Images" folder within the export directory
+    output_folder = os.path.join(export_folder, "Extract Images")
+    os.makedirs(output_folder, exist_ok=True)
     
+    # Process the file
+    file_name = os.path.basename(file_path)
+    print(f"\n📊 Processing file: {file_name}")
+    
+    result = extract_images_from_excel(file_path, output_folder)
+    
+    # Print summary
+    print("\n" + "="*50)
+    print("📈 PROCESSING SUMMARY")
+    print("="*50)
+    print(f"File: {file_name}")
+    
+    if result:
+        print(f"Status: Successfully processed ✅")
+    else:
+        print(f"Status: Failed to process ❌")
+    
+    print(f"Images saved to: {output_folder}")
+    print("\n🎉 Processing completed!")
+    
+    return result
+
+def process_excel_folder_images(folder_path, export_folder): #Process all Excel files in a folder and extract images from them.
+
     # Create "Extract Images" folder within the export directory
     output_folder = os.path.join(export_folder, "Extract Images")
     os.makedirs(output_folder, exist_ok=True)
@@ -345,12 +361,7 @@ def process_excel_folder(folder_path, export_folder):
         print("⚠️ No Excel files found in the specified folder.")
         return
     
-    total_files = len(excel_files)
-    print(f"🔍 Found {total_files} Excel files to process.")
-    print(f"🗂️ All images will be saved to: {output_folder}")
-    print(f"   - Dokumentasi images: {os.path.join(output_folder, 'Dokumentasi')}")
-    print(f"   - Rambu images: {os.path.join(output_folder, 'Rambu')}")
-    print(f"   - RPPJ images: {os.path.join(output_folder, 'RPPJ')}")
+    total_files = len(excel_files)  # Fixed variable assignment
     
     # Process each Excel file
     for i, file_path in enumerate(excel_files, 1):
@@ -382,11 +393,13 @@ def process_excel_folder(folder_path, export_folder):
 # ### 2.2. Run Function
 
 # %%
+excel_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey\01. Cileungsi - Cibeet.xlsx"  # Path to Excel files
+export_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Path for export results
+process_single_excel_file(excel_folder, export_folder) # Run the function with your paths
+
+# %%
 excel_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Path to Excel files
-export_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Path for export results
-        
-# Run the function with your paths
-process_excel_folder(excel_folder, export_folder)
-#extract_images_from_excel(excel_folder, export_folder)
+export_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Path for export results
+process_excel_folder_images(excel_folder, export_folder) # Run the function with your paths
 
 

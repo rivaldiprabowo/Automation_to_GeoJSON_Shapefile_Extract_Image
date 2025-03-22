@@ -1,8 +1,8 @@
 # %% [markdown]
-# # Automation Excel to Shapefile
+# # Automation Excel to GeoJSON and Shapefile
 
 # %% [markdown]
-# ## 1. Application to Export Excel into Shapefile
+# ## 1. Application to Export Excel into GeoJson
 
 # %% [markdown]
 # ### 1.1. Function Codes
@@ -11,13 +11,13 @@
 import sys
 import subprocess
 import pkg_resources
+import json
 import glob
 import os
 from pathlib import Path
 import pandas as pd
 from openpyxl import load_workbook
 import geopandas as gpd
-from datetime import datetime
 from shapely.geometry import Point, LineString, MultiPoint
 import numpy as np
 
@@ -118,44 +118,6 @@ def clean_column_names(columns): #Standardize column names by capitalizing each 
         
         cleaned_columns.append(col)
     return cleaned_columns
-
-def log_coordinate_errors(error_logs, output_base_folder): # Logs to store error in coordinate data
-    if not error_logs:
-        print("No coordinate errors to log.")
-        return
-        
-    # Create a DataFrame from the error logs with better formatting
-    df = pd.DataFrame(error_logs)
-    
-    # Create a timestamp for the log file
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
-    # Define the log file path
-    log_path = os.path.join(output_base_folder, f"Coordinate_Error_Log_{timestamp}.xlsx")
-    
-    # Add a summary column for easier reviewing
-    if not df.empty:
-        # Create a summary column that combines the key information
-        df['Error Summary'] = df.apply(
-            lambda row: f"File: {row['Excel File']}, Sheet: {row['Sheet']}, " + 
-                       f"Row: {row['Row Index']}, Error: {row['Error']}", 
-            axis=1
-        )
-    
-    # Write the DataFrame to an Excel file
-    try:
-        with pd.ExcelWriter(log_path, engine='openpyxl') as writer:
-            df.to_excel(writer, sheet_name='Coordinate Errors', index=False)
-            
-            # Auto-adjust column widths
-            worksheet = writer.sheets['Coordinate Errors']
-            for i, col in enumerate(df.columns):
-                max_length = max(df[col].astype(str).map(len).max(), len(col))
-                worksheet.column_dimensions[chr(65 + i)].width = max_length + 2
-                
-        print(f"✅ Error log saved to: {log_path}")
-    except Exception as e:
-        print(f"❌ Error saving coordinate error log: {str(e)}")
 
 def find_coordinate_columns(df, prefix, column_type): #Find coordinate columns with various naming patterns returns column name
     
@@ -371,7 +333,102 @@ def process_coordinates(df, lat_col, lon_col, sheet_name=None, excel_name=None):
     
     return df_copy, error_rows
 
-def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  # Save GeoDataFrame to Shapefile
+def sanitize_for_path(text):
+    if text is None:
+        return "unknown"
+    # Replace characters that are not safe for file paths
+    unsafe_chars = ['\\', '/', ':', '*', '?', '"', '<', '>', '|']
+    result = str(text)
+    for char in unsafe_chars:
+        result = result.replace(char, '_')
+    return result.strip()
+
+def add_image_documentation_paths(gdf, excel_name, sheet_name, output_base_dir):
+    # Find documentation column
+    doc_columns = [col for col in gdf.columns if 'dokumentasi' in str(col).lower()]
+    
+    if not doc_columns:
+        # If no dokumentasi column exists, add a placeholder one
+        gdf['Image Dokumentasi'] = None
+        doc_columns = ['Image Dokumentasi']
+    
+    # Use the first found dokumentasi column
+    doc_column = doc_columns[0]
+    
+    # Clean names for use in paths
+    file_name_clean = sanitize_for_path(excel_name)
+    safe_sheet_name = sanitize_for_path(sheet_name)
+    safe_column_name = sanitize_for_path(doc_column)
+    
+    # Generate image paths for each row
+    for idx, row in gdf.iterrows():
+        safe_row_identifier = sanitize_for_path(idx)
+        
+        # Get Kota/Kabupaten name, if available
+        kota_kab = "Unknown"
+        if 'Kota/Kabupaten' in gdf.columns and pd.notna(row['Kota/Kabupaten']):
+            kota_kab = sanitize_for_path(row['Kota/Kabupaten'])
+        
+        # Construct the image path with the requested structure
+        image_path = os.path.join(
+            output_base_dir,
+            "Extract Images",
+            "Dokumentasi",
+            f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_Row{safe_row_identifier}.png"
+        )
+        
+        # Assign to the dataframe
+        gdf.at[idx, 'Image Dokumentasi'] = image_path
+    
+    return gdf
+
+def add_image_paths(gdf, excel_name, sheet_name, output_base_dir):
+    # Clean names for use in paths
+    file_name_clean = sanitize_for_path(excel_name)
+    safe_sheet_name = sanitize_for_path(sheet_name)
+    
+    # Check if it's a Rambu sheet
+    if 'rambu' in sheet_name.lower():
+        # Check if 'Nama Rambu' column exists
+        nama_rambu_columns = [col for col in gdf.columns if 'nama rambu' in str(col).lower()]
+        
+        if nama_rambu_columns:
+            nama_rambu_column = nama_rambu_columns[0]
+            
+            # Generate image paths for each row
+            for idx, row in gdf.iterrows():
+                nama_rambu_value = str(row.get(nama_rambu_column, ''))
+                
+                if nama_rambu_value and nama_rambu_value.lower() != 'nan' and nama_rambu_value.lower() != 'none':
+                    # Construct the image path using the Nama Rambu value
+                    safe_nama_rambu = sanitize_for_path(nama_rambu_value)
+                    image_path = os.path.join(output_base_dir, "Extract Images", "Rambu", f"{safe_nama_rambu}.png")
+                    
+                    # Assign the constructed path to the 'Image Rambu' property
+                    gdf.at[idx, 'Image Rambu'] = image_path
+                else:
+                    gdf.at[idx, 'Image Rambu'] = None  # Handle missing Nama Rambu values
+    
+    # Check if it's an RPPJ sheet
+    elif 'rppj' in sheet_name.lower():
+        # Generate image paths for each row
+        for idx, row in gdf.iterrows():
+            safe_row_identifier = sanitize_for_path(idx)
+            
+            # Construct the image path for RPPJ
+            image_path = os.path.join(
+                output_base_dir,
+                "Extract Images",
+                "RPPJ",
+                f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_RPPJ_Row{safe_row_identifier}.png"
+            )
+            
+            # Assign to the dataframe
+            gdf.at[idx, 'Image RPPJ'] = image_path
+    
+    return gdf
+
+def save_to_geojson(gdf, output_path, batas_wilayah=None, excel_name=None, sheet_name=None, output_base_dir=None):
     try:
         gdf = gdf.copy()
         
@@ -413,6 +470,10 @@ def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  #
                 # Perform the spatial join
                 gdf = gpd.sjoin(gdf, batas_wilayah[['geometry', 'NAMOBJ']], how="left", predicate="intersects")
                 
+                # Rename NAMOBJ column to Kota/Kabupaten
+                if 'NAMOBJ' in gdf.columns:
+                    gdf = gdf.rename(columns={'NAMOBJ': 'Kota/Kabupaten'})
+                
                 # Clean up index column created by spatial join
                 if 'index_right' in gdf.columns:
                     gdf = gdf.drop(columns=['index_right'])
@@ -420,93 +481,55 @@ def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  #
             except Exception as e:
                 print(f"Warning: Error during spatial join: {str(e)}")
         
-        # Truncate column names to 10 characters but preserve 'name' or 'nama' fields
-        new_columns = {}
-        for col in gdf.columns:
-            if col == "geometry" or col == "Geometry":
-                continue
+        # Add the image documentation paths before saving
+        if excel_name is not None and sheet_name is not None and output_base_dir is not None:
+            # Add documentation image paths
+            gdf = add_image_documentation_paths(gdf, excel_name, sheet_name, output_base_dir)
             
-            # Special handling for name-related columns - don't add numbers to these
-            if 'name' in str(col).lower() or 'nama' in str(col).lower() or col == 'NAMOBJ':
-                # Just truncate to 10 chars without adding a number
-                new_name = str(col)[:10]
-            else:
-                # For all other columns, create a unique name that's short enough
-                base_name = str(col)[:7]
-                suffix = 1
-                new_name = base_name
-                
-                # If this name is already used, add numbers until we find a unique one
-                while new_name in new_columns.values() and len(new_name) < 10:
-                    new_name = f"{base_name}_{suffix}"[:10]
-                    suffix += 1
-            
-            new_columns[col] = new_name
+            # Add new special image paths based on sheet type
+            gdf = add_image_paths(gdf, excel_name, sheet_name, output_base_dir)
         
-        # Create a mapping file to record the original field names
-        mapping_dict = {v: k for k, v in new_columns.items()}
-        
-        # Rename the columns
-        gdf = gdf.rename(columns=new_columns)
-        
-        # Modify the output path to include NAMOBJ and "Jalan Eksisting"
-        if 'NAMOBJ' in gdf.columns:
-            # Group by NAMOBJ and save each group to the appropriate directory
-            for name_obj, group in gdf.groupby('NAMOBJ'):
+        # Modify the output path to include Kota/Kabupaten and "Jalan Eksisting"
+        if 'Kota/Kabupaten' in gdf.columns:
+            # Group by Kota/Kabupaten and save each group to the appropriate directory
+            for name_obj, group in gdf.groupby('Kota/Kabupaten'):
                 if pd.isna(name_obj):
                     name_obj = "Unknown"
                     
-                # Create directory structure: output_folder/Extract Shapefile/NAMOBJ/Jalan Eksisting
+                # Create directory structure: output_folder/Extract GeoJSON/Kota/Kabupaten/Jalan Eksisting
                 output_dir = os.path.dirname(output_path)
                 file_name = os.path.basename(output_path)
                 
-                # Create new path with NAMOBJ and Jalan Eksisting folders
+                # Create new path with Kota/Kabupaten and Jalan Eksisting folders
                 new_output_dir = os.path.join(output_dir, name_obj, "Jalan Eksisting")
                 os.makedirs(new_output_dir, exist_ok=True)
                 
                 new_output_path = os.path.join(new_output_dir, file_name)
                 
-                # Save the shapefile
-                group.to_file(new_output_path, driver="ESRI Shapefile")
-                
-                print(f"✅ Saved: {new_output_path}")
-                
-                # Apply QML Style if qml_folder is provided
-                if qml_folder is not None:
-                    sheet_name = os.path.splitext(file_name)[0].split('_')[-1]  # Extract sheet name from filename
-                    qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml")  # Assuming QML file follows sheet name
-                    qml_target_file = new_output_path.replace(".shp", ".qml")
-                    
-                    if os.path.exists(qml_source_file):
-                        import shutil
-                        shutil.copy(qml_source_file, qml_target_file)
-                        print(f"✅ Applied QML style: {qml_target_file}")
-                    else:
-                        print(f"⚠️ No QML file found for {sheet_name}")
+                # Save the GeoJSON file
+                clean_geojson(group, new_output_path)
         else:
-            # If NAMOBJ is not in columns, just save to the original path
-            gdf.to_file(output_path, driver="ESRI Shapefile")
-            print(f"✅ Saved: {output_path}")
-            
-            # Apply QML Style if qml_folder is provided
-            if qml_folder is not None:
-                sheet_name = os.path.splitext(os.path.basename(output_path))[0].split('_')[-1]  # Extract sheet name
-                qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml")  # Assuming QML file follows sheet name
-                qml_target_file = output_path.replace(".shp", ".qml")
-                
-                if os.path.exists(qml_source_file):
-                    import shutil
-                    shutil.copy(qml_source_file, qml_target_file)
-                    print(f"✅ Applied QML style: {qml_target_file}")
-                else:
-                    print(f"⚠️ No QML file found for {sheet_name}")
-        
+            # If Kota/Kabupaten is not in columns, just save to the original path
+            clean_geojson(gdf, output_path)
     except Exception as e:
-        print(f"❌ Error saving shapefile {output_path}: {str(e)}")
+        print(f"❌ Error saving GeoJSON {output_path}: {str(e)}")
         import traceback
         traceback.print_exc()
 
-def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_wilayah=None, qml_folder=None, error_logs=None): #Convert an Excel file to Shapefile and collect error logs
+def clean_geojson(gdf, output_path):  # Save GeoDataFrame in a clean format GeoJSON file
+    temp_path = output_path.replace(".geojson", "_temp.geojson")
+    gdf.to_file(temp_path, driver="GeoJSON")
+    
+    with open(temp_path, "r", encoding="utf-8") as file:
+        geojson_data = json.load(file)
+    
+    with open(output_path, "w", encoding="utf-8") as file:
+        json.dump(geojson_data, file, indent=4)
+    
+    os.remove(temp_path)
+    print(f"✅ Saved: {output_path}")
+
+def flatten_excel_to_geojson(file_path, output_folder, excel_name=None, batas_wilayah=None, error_logs=None):
     if error_logs is None:
         error_logs = []
     
@@ -517,6 +540,9 @@ def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_
         
         # Create output folder if it doesn't exist
         os.makedirs(output_folder, exist_ok=True)
+        
+        # Extract the output base directory from output_folder
+        output_base_dir = os.path.dirname(os.path.dirname(output_folder))
         
         # Load workbook
         wb = load_workbook(file_path, data_only=True)
@@ -831,14 +857,19 @@ def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_
                         gdf = gdf.loc[:, ~gdf.columns.astype(str).str.contains("rekap", case=False, na=False)]
                     
                     # Define output file path
-                    output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.shp")
+                    output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.geojson")
                     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-                    # Save as shapefile
-                    save_to_shapefile(gdf, output_path, batas_wilayah, qml_folder)
-                else:
-                    print(f"⚠️ Skipping '{sheet_name}' (No valid geometry found)")
-                    continue
+                    # Save as GeoJSON with additional parameters for image documentation
+                    save_to_geojson(
+                        gdf, 
+                        output_path, 
+                        batas_wilayah,
+                        excel_name=excel_name,
+                        sheet_name=sheet_name,
+                        output_base_dir=output_base_dir
+                    )
+                
             except Exception as e:
                 print(f"❌ Error processing sheet '{sheet_name}': {str(e)}")
                 import traceback
@@ -852,8 +883,9 @@ def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_
         traceback.print_exc()
         return error_logs
 
-def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for one Excel file
-    output_folder = os.path.join(output_base_folder, "Extract Shapefile")
+def process_single_excel_file(file_path, output_base_folder, batas_wilayah_path=None): # Process a single Excel file and convert it to GeoJSON
+    # Create output folder
+    output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
     os.makedirs(output_folder, exist_ok=True)
     
     # Load the city boundaries shapefile if provided
@@ -867,38 +899,27 @@ def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folde
     else:
         print("❌ No city boundaries provided or file not found.")
     
-    # Check if QML folder exists
-    if qml_folder and os.path.exists(qml_folder):
-        print(f"✅ Using QML styles from: {qml_folder}")
-    else:
-        print("❌ No QML folder provided or folder not found.")
-        qml_folder = None
-    
-    # Extract file name
+    # Get file name
     file_name = os.path.basename(file_path)
     excel_name = os.path.splitext(file_name)[0]
-    
-    print(f"Processing: {file_name}")
-    
+
+    error_logs = []
     try:
-        # Initialize error_logs list
-        error_logs = []
-        
-        wb = load_workbook(file_path, data_only=True)
-        
-        # Process the file (this will handle all sheets)
-        error_logs = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, error_logs)
-        
+        # Process the file
+        error_logs = flatten_excel_to_geojson(file_path, output_folder, excel_name, batas_wilayah, error_logs)
         print(f"✅ Completed processing: {file_name}")
         if error_logs:
-            log_coordinate_errors(error_logs, output_base_folder)
+            print(f"⚠️ Found {len(error_logs)} coordinate errors during processing")
     except Exception as e:
         print(f"❌ Error processing {file_name}: {str(e)}")
         import traceback
         traceback.print_exc()
 
-def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for all Excel files in a folder
-    output_folder = os.path.join(output_base_folder, "Extract Shapefile")
+    print(f"\nProcessing: {file_name}")
+    print(f"\n🎉 Excel file processed. Output saved to: {output_folder}")
+
+def process_excel_folder_geojson(input_folder, output_base_folder, batas_wilayah_path=None): # Process a folder contain excel files and convert it to GeoJSON
+    output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
     os.makedirs(output_folder, exist_ok=True)
     
     # Load the city boundaries shapefile if provided
@@ -911,13 +932,6 @@ def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=
             print(f"❌ Error loading city boundaries shapefile: {str(e)}")
     else:
         print("❌ No city boundaries provided or file not found.")
-    
-    # Check if QML folder exists
-    if qml_folder and os.path.exists(qml_folder):
-        print(f"✅ Using QML styles from: {qml_folder}")
-    else:
-        print("❌ No QML folder provided or folder not found.")
-        qml_folder = None
     
     # Get all Excel files in the input folder
     excel_extensions = ['*.xlsx', '*.xls', '*.xlsm']
@@ -937,39 +951,29 @@ def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=
         
         try:
             # Collect errors from processing this file
-            file_errors = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, [])
+            file_errors = flatten_excel_to_geojson(file_path, output_folder, excel_name, batas_wilayah, [])
             all_error_logs.extend(file_errors)
             print(f"✅ Completed processing: {file_name}")
             if file_errors:
                 print(f"⚠️ Found {len(file_errors)} coordinate errors during processing")
         except Exception as e:
             print(f"❌ Error processing {file_name}: {str(e)}")
-    
-    # Log all errors
-    if all_error_logs:
-        log_coordinate_errors(all_error_logs, output_base_folder)
-    
+        
     print(f"\n🎉 All Excel files processed. Output saved to: {output_folder}")
 
 # %% [markdown]
-# ### 1.2. Run Function Excel to Shapefile
+# ### 1.2. Run Function Excel to GeoJSON
 
 # %%
-# Check for one file to process
-file_path = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey\Ludira 27.A Jl. Bhayangkara (Pelabuhan Ratu).xlsx"  # Fill with the path file of excel
-output_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Fill with the path folder of export result
-excel_name = r"01. Cileungsi - Cibeet.xlsx"
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey\01. Cileungsi - Cibeet.xlsx"  # Fill with the path file of excel
+output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Fill with the path folder of export result
 batas_wilayah = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- Batas wilayah kota\Batas_Kota_Kabupaten_JABAR.shp"
-qml_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- QML File"
-process_single_excel_file_shapefile(file_path, output_folder,qml_folder,batas_wilayah)
+process_single_excel_file(input_folder, output_base_folder,batas_wilayah)
 
 # %%
-# Check for one folder to process
-input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey1"  # Fill with the path file of excel
-output_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Fill with the path folder of export result
-excel_name = r"01. Cileungsi - Cibeet.xlsx"
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Fill with the path file of excel
+output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Fill with the path folder of export result
 batas_wilayah = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- Batas wilayah kota\Batas_Kota_Kabupaten_JABAR.shp"
-qml_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- QML File"
-process_excel_folder_shapefile(input_folder, output_folder, qml_folder, batas_wilayah) # Run the function!
+process_excel_folder_geojson(input_folder, output_base_folder,batas_wilayah) # Run the function!
 
 
