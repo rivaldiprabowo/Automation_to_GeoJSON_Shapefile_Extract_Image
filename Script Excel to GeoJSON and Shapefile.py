@@ -73,19 +73,21 @@ def install_requirements(): #Install required packages if they are not already i
             sys.exit(1)
 
 
-if __name__ == "__main__": # Run the requirements check at the beginning
-    install_requirements()
-
 install_requirements()
 
-import pandas as pd
-from openpyxl import load_workbook
-import geopandas as gpd
-from shapely.geometry import Point, LineString
-import json
-import glob
-import os
-from pathlib import Path
+def import_library():
+    import pandas as pd
+    from openpyxl import load_workbook
+    import geopandas as gpd
+    from shapely.geometry import Point, LineString, MultiPoint
+    import json
+    import glob
+    import os
+    from pathlib import Path
+
+import_library()
+
+from shapely.geometry import Point, LineString, MultiPoint
 
 def unique_column_names(columns): # Ensure column names are unique by appending suffix.
     seen = {}
@@ -264,7 +266,7 @@ def find_coordinate_columns(df, prefix, column_type): #Find coordinate columns w
     
     return None
 
-def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from an Excel file to GeoJSON, handling both Point and LineString geometries
+def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from an Excel file to GeoJSON, handling Point, MultiPoint, and LineString geometries
 
     # Load workbook
     wb = load_workbook(file_path, data_only=True)
@@ -389,10 +391,9 @@ def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from
         except Exception as e:
             print(f"Warning in '{sheet_name}': Error filtering rekap columns (third pass) - {str(e)}")
         
-        # Safely check if this sheet contains "PAGAR PENGAMAN" or "MARKA" columns
-        contains_linestring_indicator = any(col for col in df.columns 
-                                 if isinstance(col, str) and 
-                                 ("pagar pengaman" in col.lower() or "marka" in col.lower()))
+        # Check if this sheet is about MARKA or PAGAR PENGAMAN
+        is_marka_sheet = "marka" in sheet_name.lower() or any(col for col in df.columns if isinstance(col, str) and "marka" in col.lower())
+        is_pagar_pengaman_sheet = "pagar pengaman" in sheet_name.lower() or any(col for col in df.columns if isinstance(col, str) and "pagar pengaman" in col.lower())
 
         # Find all coordinate columns using the improved function
         start_lat_col = find_coordinate_columns(df, 'start', 'lat')
@@ -430,16 +431,36 @@ def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from
             # Check if we have at least one row with both coordinates valid
             valid_pairs = ((df[start_lat_col].notna() & df[start_lon_col].notna()) & 
                            (df[end_lat_col].notna() & df[end_lon_col].notna())).any()
-            
-            # Only use LineString if we have valid end coordinates and at least one pair is complete
-            use_linestring = has_valid_end_coords and valid_pairs and contains_linestring_indicator
         else:
-            use_linestring = False
+            has_valid_end_coords = False
+            valid_pairs = False
         
-        # Determine geometry type based on available coordinates and actual data
-        if use_linestring:
-            # LineString geometry with start/end points
-            print(f"Processing '{sheet_name}' as LineString (both start and end coordinates contain valid data)")
+        # Determine geometry type based on available coordinates, actual data, and sheet type
+        if is_marka_sheet:
+            # MARKA sheets should use MultiPoint geometry
+            print(f"Processing '{sheet_name}' as MultiPoint (MARKA sheet)")
+            
+            # Create MultiPoint geometry
+            df["geometry"] = df.apply(
+                lambda row: MultiPoint([
+                    (row[start_lon_col], row[start_lat_col]),
+                    (row[end_lon_col], row[end_lat_col])
+                ]) if (pd.notna(row[start_lon_col]) and pd.notna(row[start_lat_col]) and 
+                       pd.notna(row[end_lon_col]) and pd.notna(row[end_lat_col])) else 
+                    (MultiPoint([(row[start_lon_col], row[start_lat_col])]) 
+                     if pd.notna(row[start_lon_col]) and pd.notna(row[start_lat_col]) else None),
+                axis=1
+            )
+            
+            # Exclude coordinate columns from properties
+            exclude_cols = [start_lat_col, start_lon_col]
+            if has_end_coords:
+                exclude_cols.extend([end_lat_col, end_lon_col])
+            exclude_cols.append("geometry")
+            
+        elif is_pagar_pengaman_sheet and has_valid_end_coords and valid_pairs:
+            # PAGAR PENGAMAN sheets with valid start/end coordinates should use LineString
+            print(f"Processing '{sheet_name}' as LineString (PAGAR PENGAMAN sheet)")
             
             # Create LineString geometry
             df["geometry"] = df.apply(
@@ -455,8 +476,8 @@ def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from
             exclude_cols = [start_lat_col, start_lon_col, end_lat_col, end_lon_col, "geometry"]
             
         else:
-            # Point geometry (only start coordinates)
-            print(f"Processing '{sheet_name}' as Point geometry (second coordinates are missing or invalid)")
+            # Other sheets use Point geometry (only start coordinates)
+            print(f"Processing '{sheet_name}' as Point geometry (regular sheet)")
             
             # Create Point geometry with start coordinates
             df["geometry"] = df.apply(
@@ -513,7 +534,6 @@ def flatten_excel_to_geojson(file_path, output_folder): #Convert all sheets from
             print(f"⚠️ Skipping '{sheet_name}' (No valid geometry found)")
             continue  # Skip processing this sheet if no valid geometries exist
 
-
 def cleanup_temp_files(output_folder): # Delete temporary files
     for temp_file in glob.glob(os.path.join(output_folder, "**/*_temp.geojson"), recursive=True):
         try:
@@ -563,7 +583,7 @@ def process_excel_folder(input_folder, output_base_folder): #Process all Excel f
 # ### 1.2. Run Function Excel to GeoJSON
 
 # %%
-input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Fill with the path file of excel
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey1"  # Fill with the path file of excel
 output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Fill with the path folder of export result
 process_excel_folder(input_folder, output_base_folder) # Run the function!
 
@@ -863,7 +883,7 @@ def find_coordinate_columns(df, prefix, column_type): # Find coordinate columns 
     
     return None
 
-def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets from an Excel file to Shapefile, handling both Point and LineString geometries
+def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets from an Excel file to Shapefile, handling Point, MultiPoint and LineString geometries
 
     # Load workbook
     wb = load_workbook(file_path, data_only=True)
@@ -988,10 +1008,9 @@ def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets fr
         except Exception as e:
             print(f"Warning in '{sheet_name}': Error filtering rekap columns (third pass) - {str(e)}")
         
-        # Safely check if this sheet contains "PAGAR PENGAMAN" or "MARKA" columns
-        contains_linestring_indicator = any(col for col in df.columns 
-                                 if isinstance(col, str) and 
-                                 ("pagar pengaman" in col.lower() or "marka" in col.lower()))
+        # Check if the sheet is MARKA or PAGAR PENGAMAN by name or column content
+        is_marka_sheet = "marka" in sheet_name.lower() or any("marka" in col for col in df.columns)
+        is_pagar_pengaman_sheet = "pagar pengaman" in sheet_name.lower() or any("pagar pengaman" in col for col in df.columns)
 
         # Find all coordinate columns using the improved function
         start_lat_col = find_coordinate_columns(df, 'start', 'lat')
@@ -1022,7 +1041,7 @@ def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets fr
             # Fix coordinates if needed
             df[[end_lat_col, end_lon_col]] = df.apply(fix_coordinates, axis=1, lat_col=end_lat_col, lon_col=end_lon_col)
         
-        # Check if the end coordinates actually contain valid data
+        # Check if the end coordinates actually contain valid data for LineString
         if has_end_coords:
             has_valid_end_coords = not df[end_lat_col].isna().all() and not df[end_lon_col].isna().all()
             
@@ -1031,14 +1050,18 @@ def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets fr
                            (df[end_lat_col].notna() & df[end_lon_col].notna())).any()
             
             # Only use LineString if we have valid end coordinates and at least one pair is complete
-            use_linestring = has_valid_end_coords and valid_pairs and contains_linestring_indicator
+            use_linestring = has_valid_end_coords and valid_pairs and is_pagar_pengaman_sheet
         else:
             use_linestring = False
         
-        # Determine geometry type based on available coordinates and actual data
+        # Import MultiPoint if we need it for MARKA
+        if is_marka_sheet and start_lat_col is not None and start_lon_col is not None:
+            from shapely.geometry import MultiPoint
+        
+        # Determine geometry type based on sheet name and available coordinates
         if use_linestring:
-            # LineString geometry with start/end points
-            print(f"Processing '{sheet_name}' as LineString (both start and end coordinates contain valid data)")
+            # LineString geometry with start/end points for PAGAR PENGAMAN
+            print(f"Processing '{sheet_name}' as LineString (PAGAR PENGAMAN or similar)")
             
             # Create LineString geometry
             df["geometry"] = df.apply(
@@ -1053,9 +1076,35 @@ def flatten_excel_to_shapefile(file_path, output_folder): #Convert all sheets fr
             # Exclude coordinate columns from properties
             exclude_cols = [start_lat_col, start_lon_col, end_lat_col, end_lon_col, "geometry"]
             
+        elif is_marka_sheet:
+            # MultiPoint geometry for MARKA
+            print(f"Processing '{sheet_name}' as MultiPoint (MARKA sheet)")
+            
+            # Create MultiPoint geometry with both start and end coordinates if available
+            if has_end_coords:
+                df["geometry"] = df.apply(
+                    lambda row: MultiPoint([
+                        (row[start_lon_col], row[start_lat_col]),
+                        (row[end_lon_col], row[end_lat_col])
+                    ]) if pd.notna(row[start_lon_col]) and pd.notna(row[start_lat_col]) and 
+                         pd.notna(row[end_lon_col]) and pd.notna(row[end_lat_col]) else
+                    # Fallback to single point if only start coordinates are valid
+                    MultiPoint([(row[start_lon_col], row[start_lat_col])])
+                    if pd.notna(row[start_lon_col]) and pd.notna(row[start_lat_col]) else None,
+                    axis=1
+                )
+                exclude_cols = [start_lat_col, start_lon_col, end_lat_col, end_lon_col, "geometry"]
+            else:
+                # Only start coordinates available for MultiPoint
+                df["geometry"] = df.apply(
+                    lambda row: MultiPoint([(row[start_lon_col], row[start_lat_col])])
+                    if pd.notna(row[start_lon_col]) and pd.notna(row[start_lat_col]) else None,
+                    axis=1
+                )
+                exclude_cols = [start_lat_col, start_lon_col, "geometry"]
         else:
-            # Point geometry (only start coordinates)
-            print(f"Processing '{sheet_name}' as Point geometry (second coordinates are missing or invalid)")
+            # Default Point geometry for other sheets
+            print(f"Processing '{sheet_name}' as Point geometry (standard sheet)")
             
             # Create Point geometry with start coordinates
             df["geometry"] = df.apply(
@@ -1150,7 +1199,7 @@ def process_excel_folder(input_folder, output_base_folder): # Process all Excel 
 # ### 2.2. Run Function Excel to Shapefile
 
 # %%
-input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey"  # Fill with the path file of excel
+input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey1"  # Fill with the path file of excel
 output_base_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export"  # Fill with the path folder of export result
 process_excel_folder(input_folder, output_base_folder) # Run the function!
 
