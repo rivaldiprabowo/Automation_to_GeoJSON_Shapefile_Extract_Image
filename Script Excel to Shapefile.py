@@ -1,8 +1,8 @@
 # %% [markdown]
-# # Automation Excel to GeoJSON and Shapefile
+# # Automation Excel to Shapefile
 
 # %% [markdown]
-# ## 1. Application to Export Excel into GeoJson
+# ## 1. Application to Export Excel into Shapefile
 
 # %% [markdown]
 # ### 1.1. Function Codes
@@ -870,7 +870,7 @@ def shapefile_extract_result_folder(input_folder, output_base_folder):
         print(f"⚠️ Total coordinate errors: {len(all_error_logs)}. See error log in the output folder.")
 
 # %% [markdown]
-# ### 1.2. Run Function Excel to GeoJSON
+# ### 1.2. Run Function Excel to Shapefile
 
 # %%
 input_folder = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey1"  # Fill with the path file of excel
