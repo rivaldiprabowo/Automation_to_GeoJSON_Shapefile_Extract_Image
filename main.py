@@ -11,15 +11,17 @@ class ConversionThread(QThread):
     log_message = pyqtSignal(str)
     finished = pyqtSignal()
 
-    def __init__(self, file_path = None, directory_path = None, out_directory_path = None) -> None:
+    def __init__(self, file_path = None, directory_path = None, out_directory_path = None, jenis_jalan = None, tipe_jalan = None) -> None:
         super().__init__()
         self.file_path = file_path
         self.directory_path = directory_path
         self.out_directory_path = out_directory_path
+        self.jenis_jalan = jenis_jalan
+        self.tipe_jalan = tipe_jalan
         self.running = True
 
     def run(self):
-        processor = Process(self.out_directory_path, self.progress.emit)
+        processor = Process(self.out_directory_path, self.jenis_jalan, self.tipe_jalan, self.progress.emit)
         try:
             if self.file_path:
                 self.log_message.emit(f"Processing file: {self.file_path}")
@@ -103,6 +105,16 @@ class Main(QMainWindow):
             QMessageBox.warning(self, "Error", "Please select output directory first.")
             return
 
+        if (self.ui.rbPrioritas.isChecked()):
+            jenis_jalan = "Jalan Prioritas"
+        elif (self.ui.rbNonPrioritas.isChecked()):
+            jenis_jalan = "Jalan Non-Prioritas"
+
+        if (self.ui.rbEksisting.isChecked()):
+            tipe_jalan = "Eksisting"
+        elif (self.ui.rbKebutuhan.isChecked()):
+            tipe_jalan = "Kebutuhan"
+        
         self.ui.btnConvert.setEnabled(False)
         self.ui.btnCancel.setEnabled(True)
         self.ui.textLog.append("Starting conversion...")
@@ -110,7 +122,9 @@ class Main(QMainWindow):
         # Create and start the conversion thread
         self.conversion_thread = ConversionThread(file_path=file_path if file_path else None, 
                                                   directory_path=directory_path if directory_path else None,
-                                                  out_directory_path=out_directory_path)
+                                                  out_directory_path=out_directory_path,
+                                                  jenis_jalan=jenis_jalan if jenis_jalan else None,
+                                                  tipe_jalan=tipe_jalan if tipe_jalan else None)
         self.conversion_thread.progress.connect(self.ui.progressBar.setValue)
         self.conversion_thread.log_message.connect(self.ui.textLog.append)
         self.conversion_thread.finished.connect(self.conversion_finished)

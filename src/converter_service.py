@@ -2,8 +2,10 @@ import os
 from src.converter_worker import ExcelConverter
 
 class Process:
-    def __init__(self, output_folder, progress_callback = None) -> None:
+    def __init__(self, output_folder, jenis_jalan, tipe_jalan, progress_callback = None) -> None:
         self.output_folder = output_folder + "/converted_output"
+        self.jenis_jalan = jenis_jalan
+        self.tipe_jalan = tipe_jalan
         self.progress_callback = progress_callback
         os.makedirs(self.output_folder, exist_ok=True)
 
