@@ -3,7 +3,7 @@ from src.converter_worker import ExcelConverter
 
 class Process:
     def __init__(self, output_folder, progress_callback=None) -> None:
-        self.output_folder = output_folder + "/converted_output"
+        self.output_folder = output_folder
         self.progress_callback = progress_callback
         os.makedirs(self.output_folder, exist_ok=True)
     
