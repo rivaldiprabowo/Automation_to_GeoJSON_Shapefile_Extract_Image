@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "name": "BARU - Eksisting KARTINI KOTA BEKASI_CERMIN TIKUNG_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": "PERBATASN BANDUNG-GARUT (LEBAKJERO)",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Kondisi": "Rusak",
+                "Keterangan Kondisi": "Cermin Pudar",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_CERMIN TIKUNG_Column_Dokumentasi_Row0.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.89871,
+                    -7.054243
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,1018 @@
+{
+    "type": "FeatureCollection",
+    "name": "BARU - Eksisting KARTINI KOTA BEKASI_PJU_temp",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "No": "NO",
+                "Detail Lokasi": "DETAIL LOKASI",
+                "Dokumentasi": "DOKUMENTASI",
+                "Tahun Anggaran": "TAHUN ANGGARAN",
+                "Lokasi Pemasangan Kiri": "Jika Ya isi 1, Jika Tidak isi 0",
+                "Lokasi Pemasangan Tengah": "Jika Ya isi 1, Jika Tidak isi 0",
+                "Lokasi Pemasangan Kanan": "Jika Ya isi 1, Jika Tidak isi 0",
+                "Kondisi": "Pilih Salah Satu",
+                "Keterangan Kondisi": "KETERANGAN KONDISI",
+                "Jenis Pju": "Pilih Salah Satu",
+                "Jenis Tiang": "Pilih Salah Satu",
+                "Jenis Lampu": "Pilih Salah Satu",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row0.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": "PERBATASN BANDUNG-GARUT (LEBAKJERO)",
+                "Dokumentasi": null,
+                "Tahun Anggaran": "Tidak Diketahui",
+                "Lokasi Pemasangan Tengah": null,
+                "Lokasi Pemasangan Kanan": null,
+                "Kondisi": "Rusak Berat",
+                "Keterangan Kondisi": "Sebelah Kiri Lampu ada PJU stang tapi lampu hilang tinggal stang",
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row1.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.89871,
+                    -7.054243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row2.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0053076,
+                    -6.2434343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row3.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.00503,
+                    -6.2439329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row4.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0049285,
+                    -6.2441327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row5.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0048015,
+                    -6.2443775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row6.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0045624,
+                    -6.2446484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row7.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0043184,
+                    -6.2448595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row8.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0040735,
+                    6.2450695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row9.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0038462,
+                    -6.2452928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "Bohlam",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row10.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.003394,
+                    -6.2457404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row11.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0032029,
+                    -6.2459392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row12.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0030743,
+                    -6.2460707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row13.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0028212,
+                    -6.2463349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row14.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0025,
+                    -6.2466803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row15.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0020507,
+                    -6.2471769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row16.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.001835,
+                    -6.2473991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row17.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0017019,
+                    -6.2475195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row18.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0014959,
+                    -6.247675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row19.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0012693,
+                    -6.247973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row20.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0010934,
+                    -6.2482693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row21.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0010016,
+                    -6.2484263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row22.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0006213,
+                    -6.2490662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row23.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0002913,
+                    -6.249991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row24.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0001718,
+                    -6.2503431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row25.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    107.0000163,
+                    -6.2506165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row26.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9999797,
+                    -6.2505521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row27.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9997346,
+                    -6.25103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row28.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.999443,
+                    -6.2515244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row29.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9989627,
+                    -6.2524085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row30.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9989627,
+                    -6.2524085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row31.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9987969,
+                    -6.2527268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row32.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9985845,
+                    -6.2530474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row33.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9984298,
+                    -6.2532986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row34.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9984327,
+                    -6.2534158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row35.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9981029,
+                    -6.2537222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row36.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9980083,
+                    -6.2541668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Tunggal",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row37.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9974299,
+                    -6.2553567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row38.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9970742,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row39.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9968607,
+                    -6.2564501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row40.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9966262,
+                    -6.2568448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row41.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9964047,
+                    -6.2571858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row42.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9959834,
+                    -6.2578052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row43.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9957425,
+                    6.2581968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row44.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9955353,
+                    -6.2585038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row45.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9954111,
+                    -6.258697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "No": null,
+                "Detail Lokasi": null,
+                "Dokumentasi": "#VALUE!",
+                "Tahun Anggaran": null,
+                "Kondisi": null,
+                "Keterangan Kondisi": null,
+                "Jenis Pju": "PJU Konvensional",
+                "Jenis Tiang": "Tiang Stang",
+                "Jenis Lampu": "LED",
+                "Image Dokumentasi": "C:/Users/Widia/source/repos/Automation_to_GeoJSON_Shapefile_Extract_Image/Demo_Output/Tes\\Extract Images\\Dokumentasi\\BARU - Eksisting KARTINI KOTA BEKASI_Sheet_PJU_Column_Dokumentasi_Row46.png"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.9953643,
+                    6.2587575
+                ]
+            }
+        }
+    ]
+}
