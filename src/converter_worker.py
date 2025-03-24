@@ -908,6 +908,8 @@ class ExcelConverter:
             import traceback
             traceback.print_exc()
 
+        self._update_progress(30)
+
     def process_excel_folder_shapefile(self,input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for all Excel files in a folder
         output_folder = os.path.join(output_base_folder, "Extract Shapefile")
         os.makedirs(output_folder, exist_ok=True)
@@ -937,6 +939,10 @@ class ExcelConverter:
         for ext in excel_extensions:
             excel_files.extend(glob.glob(os.path.join(input_folder, ext)))
         
+        # Get total_files to calculate progress step
+        total_files = len(excel_files)
+        progress_step = 30 / total_files if total_files > 0 else 0
+
         # Initialize error log list
         all_error_logs = []
         
@@ -955,12 +961,16 @@ class ExcelConverter:
                     self._log(f"⚠️ Found {len(file_errors)} coordinate errors during processing")
             except Exception as e:
                 self._log(f"❌ Error processing {file_name}: {str(e)}")
+
+            # Update progress dynamically
+            self._update_progress(int(i * progress_step))
         
         # Log all errors
         if all_error_logs:
             self.log_coordinate_errors(all_error_logs, output_base_folder)
         
         self._log(f"\n🎉 All Excel files processed. Output saved to: {output_folder}")
+        self._update_progress(30)
 
     def process_image_columns(self,ws, image_loader, target_columns, output_folder, file_name_clean, #Process images in specified columns with custom naming logic.
                             safe_sheet_name, category, nama_rambu_column, jenis_tiang_column): 
@@ -1268,13 +1278,14 @@ class ExcelConverter:
             self._log(f"Status: Failed to process ❌")
         
         self._log("\n🎉 Processing completed!")
+        self._update_progress(60)
         
         return result
 
     def process_excel_folder_images(self,folder_path, export_folder): #Process all Excel files in a folder and extract images from them.
 
         # Convert paths to absolute paths
-        file_path = os.path.abspath(file_path)
+        # file_path = os.path.abspath(file_path) # Causing unboundlocalerror
         export_folder = os.path.abspath(export_folder)
 
         # Create "Extract Images" folder within the export directory
@@ -1297,6 +1308,7 @@ class ExcelConverter:
             return
         
         total_files = len(excel_files)  # Fixed variable assignment
+        progress_step = 30 / total_files if total_files > 0 else 0
         
         # Process each Excel file
         for i, file_path in enumerate(excel_files, 1):
@@ -1307,6 +1319,9 @@ class ExcelConverter:
                 successful_files += 1
             else:
                 failed_files.append(file_name)
+
+            # Update progress dynamically
+            self._update_progress(int(30 + (i * progress_step)))
         
         # Print summary
         self._log("\n" + "="*50)
@@ -1321,6 +1336,7 @@ class ExcelConverter:
                 self._log(f"- {file}")
         
         self._log("\n🎉 All Excel files processing completed!")
+        self._update_progress(60)
 
     def sanitize_for_path(self,text):
         if text is None:
@@ -1929,6 +1945,7 @@ class ExcelConverter:
 
         self._log(f"\nProcessing: {file_name}")
         self._log(f"\n🎉 Excel file processed. Output saved to: {output_folder}")
+        self._update_progress(100)
 
     def process_excel_folder_geojson(self,input_folder, output_base_folder, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): # Process a folder contain excel files and convert it to GeoJSON
         output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
@@ -1952,6 +1969,10 @@ class ExcelConverter:
         for ext in excel_extensions:
             excel_files.extend(glob.glob(os.path.join(input_folder, ext)))
         
+        # Calculate total_files to get progress_step
+        total_files = len(excel_files)
+        progress_step = 40 / total_files if total_files > 0 else 0
+
         # Initialize error log list
         all_error_logs = []
         
@@ -1978,5 +1999,9 @@ class ExcelConverter:
                     self._log(f"⚠️ Found {len(file_errors)} coordinate errors during processing")
             except Exception as e:
                 self._log(f"❌ Error processing {file_name}: {str(e)}")
+
+            # Update progress dynamically
+            self._update_progress(int(60 + (i * progress_step)))
             
         self._log(f"\n🎉 All Excel files processed. Output saved to: {output_folder}")
+        self._update_progress(100)
