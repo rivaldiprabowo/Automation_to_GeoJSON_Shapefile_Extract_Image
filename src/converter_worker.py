@@ -382,7 +382,7 @@ class ExcelConverter:
         
         return df_copy, error_rows
 
-    def save_to_shapefile(self, gdf, output_path, batas_wilayah=None, qml_folder=None):  # Save GeoDataFrame to Shapefile
+    def save_to_shapefile(self,gdf, output_path, batas_wilayah=None, qml_folder=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"):  # Save GeoDataFrame to Shapefile
         try:
             gdf = gdf.copy()
             
@@ -460,19 +460,19 @@ class ExcelConverter:
             # Rename the columns
             gdf = gdf.rename(columns=new_columns)
             
-            # Modify the output path to include NAMOBJ and "Jalan Eksisting"
+            # Modify the output path to include NAMOBJ, jenis_jalan, and tipe_jalan
             if 'NAMOBJ' in gdf.columns:
                 # Group by NAMOBJ and save each group to the appropriate directory
                 for name_obj, group in gdf.groupby('NAMOBJ'):
                     if pd.isna(name_obj):
                         name_obj = "Unknown"
                         
-                    # Create directory structure: output_folder/Extract Shapefile/NAMOBJ/Jalan Eksisting
+                    # Create directory structure: output_folder/name_obj/jenis_jalan/tipe_jalan
                     output_dir = os.path.dirname(output_path)
                     file_name = os.path.basename(output_path)
                     
-                    # Create new path with NAMOBJ and Jalan Eksisting folders
-                    new_output_dir = os.path.join(output_dir, name_obj, "Jalan Eksisting")
+                    # Create new path with NAMOBJ, jenis_jalan, and tipe_jalan folders
+                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan)
                     os.makedirs(new_output_dir, exist_ok=True)
                     
                     new_output_path = os.path.join(new_output_dir, file_name)
@@ -517,7 +517,7 @@ class ExcelConverter:
             import traceback
             traceback.print_exc()
 
-    def flatten_excel_to_shapefile(self, file_path, output_folder, excel_name=None, batas_wilayah=None, qml_folder=None, error_logs=None): #Convert an Excel file to Shapefile and collect error logs
+    def flatten_excel_to_shapefile(self,file_path, output_folder, excel_name=None, batas_wilayah=None, qml_folder=None, error_logs=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Convert an Excel file to Shapefile and collect error logs
         if error_logs is None:
             error_logs = []
         
@@ -846,7 +846,7 @@ class ExcelConverter:
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
                         # Save as shapefile
-                        self.save_to_shapefile(gdf, output_path, batas_wilayah, qml_folder)
+                        self.save_to_shapefile(gdf, output_path, batas_wilayah, qml_folder, jenis_jalan, tipe_jalan)
                     else:
                         self._log(f"⚠️ Skipping '{sheet_name}' (No valid geometry found)")
                         continue
@@ -863,7 +863,7 @@ class ExcelConverter:
             traceback.print_exc()
             return error_logs
 
-    def process_single_excel_file_shapefile(self,file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for one Excel file
+    def process_single_excel_file_shapefile(self,file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for one Excel file
         output_folder = os.path.join(output_base_folder, "Extract Shapefile")
         os.makedirs(output_folder, exist_ok=True)
         
@@ -898,7 +898,7 @@ class ExcelConverter:
             wb = load_workbook(file_path, data_only=True)
             
             # Process the file (this will handle all sheets)
-            error_logs = self.flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, error_logs)
+            error_logs = self.flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, error_logs, jenis_jalan, tipe_jalan)
             
             self._log(f"✅ Completed processing: {file_name}")
             if error_logs:
@@ -908,7 +908,7 @@ class ExcelConverter:
             import traceback
             traceback.print_exc()
 
-    def process_excel_folder_shapefile(self,input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for all Excel files in a folder
+    def process_excel_folder_shapefile(self,input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for all Excel files in a folder
         output_folder = os.path.join(output_base_folder, "Extract Shapefile")
         os.makedirs(output_folder, exist_ok=True)
         
@@ -948,7 +948,7 @@ class ExcelConverter:
             
             try:
                 # Collect errors from processing this file
-                file_errors = self.flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, [])
+                file_errors = self.flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, [], jenis_jalan, tipe_jalan)
                 all_error_logs.extend(file_errors)
                 self._log(f"✅ Completed processing: {file_name}")
                 if file_errors:
@@ -962,20 +962,141 @@ class ExcelConverter:
         
         self._log(f"\n🎉 All Excel files processed. Output saved to: {output_folder}")
 
-    def extract_images_from_excel(self,file_path, output_folder): #Extract images from columns containing specific keywords in all sheets and save them.
-
-        # Keywords to look for in column names
-        KEYWORDS = ["DOKUMENTASI", "RAMBU", "RPPJ"]
+    def process_image_columns(self,ws, image_loader, target_columns, output_folder, file_name_clean, #Process images in specified columns with custom naming logic.
+                            safe_sheet_name, category, nama_rambu_column, jenis_tiang_column): 
         
+        # Track existing image names (to avoid duplicates for Rambu)
+        existing_images = {}
+        
+        # Find image cells in target columns
+        image_cells = {}
+        for col in target_columns:
+            col_letter = get_column_letter(col)
+            column_name = target_columns[col]
+            
+            # Make column name safe for filename
+            safe_column_name = re.sub(r'[\\/*?:"<>|]', "_", column_name)
+            
+            # Scan rows starting from row 6
+            for row in range(6, ws.max_row + 1):
+                cell_address = f"{col_letter}{row}"
+                if image_loader.image_in(cell_address):
+                    image_cells[(row, col)] = {
+                        'cell_address': cell_address,
+                        'column_name': safe_column_name,
+                        'column_letter': col_letter,
+                        'row_number': row
+                    }
+        
+        if not image_cells:
+            self._log(f"⚠️ No images found in {category.upper()} columns, skipping...")
+            return 0
+        
+        self._log(f"Found {len(image_cells)} images in {category.upper()} columns")
+        
+        # Process images in column-first, row-second order
+        successful_images = 0
+        image_cells_by_column = {}
+        
+        # Group by column
+        for (row, col), cell_info in image_cells.items():
+            if col not in image_cells_by_column:
+                image_cells_by_column[col] = []
+            image_cells_by_column[col].append((row, cell_info))
+        
+        # Process each column
+        for col in sorted(image_cells_by_column.keys()):
+            column_letter = get_column_letter(col)
+            column_name = target_columns[col]
+            safe_column_name = re.sub(r'[\\/*?:"<>|]', "_", column_name)
+            
+            self._log(f"Processing {len(image_cells_by_column[col])} images in column '{column_name}'")
+            
+            # Process rows in order
+            for row, cell_info in sorted(image_cells_by_column[col], key=lambda x: x[0]):
+                cell_address = cell_info['cell_address']
+                try:
+                    # Get the image
+                    img = image_loader.get(cell_address)
+                    
+                    # Generate filename based on category
+                    if category == "rambu" and nama_rambu_column is not None:
+                        # For RAMBU: Use "Nama Rambu" column value as filename
+                        nama_rambu_value = ws[f"{get_column_letter(nama_rambu_column)}{row}"].value
+                        
+                        if nama_rambu_value and str(nama_rambu_value).strip():
+                            # Use the actual value from "Nama Rambu" column
+                            safe_nama_rambu = re.sub(r'[\\/*?:"<>|]', "_", str(nama_rambu_value).strip())
+                            # Add file_name_clean prefix to avoid conflicts from different files
+                            img_filename = f"{file_name_clean}_{safe_nama_rambu}.png"
+                            
+                            # Check if this name already exists (to avoid duplicates)
+                            if img_filename in existing_images:
+                                self._log(f"  ⚠️ Duplicate 'Nama Rambu' found: {safe_nama_rambu} - Replacing existing image")
+                            
+                            existing_images[img_filename] = True
+                        else:
+                            # Fallback to default naming if no nama_rambu value
+                            self._log(f"  ⚠️ No 'Nama Rambu' value found for row {row}, using default naming")
+                            row_identifier = f"Row{row}"
+                            safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
+                            img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
+                    
+                    elif category == "rppj" and jenis_tiang_column is not None:
+                        # For RPPJ: Use "Jenis Tiang" column value in filename
+                        jenis_tiang_value = ws[f"{get_column_letter(jenis_tiang_column)}{row}"].value
+                        safe_jenis_tiang = "Unknown"
+                        if jenis_tiang_value and str(jenis_tiang_value).strip():
+                            safe_jenis_tiang = re.sub(r'[\\/*?:"<>|]', "_", str(jenis_tiang_value).strip())
+                        
+                        # Get row identifier - ALWAYS use just the row number without column A value
+                        row_identifier = f"Row{row}"
+                        
+                        safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
+                        # Add file_name_clean prefix to avoid conflicts from different files
+                        img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_jenis_tiang}_{safe_row_identifier}.png"
+                    
+                    else:
+                        # Default naming for DOKUMENTASI
+                        row_identifier = f"Row{row}"
+                        
+                        safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
+
+                        if category == "dokumentasi":
+                            img_filename = f"Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
+                        else:
+                            # For any other category, include the file_name_clean to prevent conflicts
+                            img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
+                    
+                    # Save the image
+                    img_path = os.path.join(output_folder, img_filename)
+                    with io.BytesIO() as img_buffer:
+                        img.save(img_buffer, format="PNG")
+                        img_buffer.seek(0)
+                        with open(img_path, 'wb') as f:
+                            f.write(img_buffer.read())
+                    
+                    successful_images += 1
+                    self._log(f"  ✅ Saved: {img_filename}")
+                except Exception as e:
+                    self._log(f"  ❌ Error saving image at {cell_address}: {str(e)}")
+        
+        return successful_images
+
+    def extract_images_from_excel(self,file_path, output_folder):
+        # Make sure we have absolute paths
+        file_path = os.path.abspath(file_path)
+        output_folder = os.path.abspath(output_folder)
+            
         # Extract filename from path for folder creation
-        file_name_clean = re.search(r'([^\\]+)\.xlsx$', file_path)
+        file_name_clean = re.search(r'([^\\]+)\.xlsx?$', file_path)
         if file_name_clean:
             file_name_clean = file_name_clean.group(1)
         else:
-            file_name_clean = os.path.basename(file_path).replace('.xlsx', '')
+            file_name_clean = os.path.basename(file_path).replace('.xlsx', '').replace('.xlsm', '')
         
         # Create subdirectories for each category
-        dokumentasi_folder = os.path.join(output_folder, "Dokumentasi", file_name_clean)  # Changed - nested under Excel name
+        dokumentasi_folder = os.path.join(output_folder, "Dokumentasi", file_name_clean)
         rambu_folder = os.path.join(output_folder, "Rambu")
         rppj_folder = os.path.join(output_folder, "RPPJ")
         
@@ -1044,12 +1165,12 @@ class ExcelConverter:
                         # Find the specific column for "Nama Rambu"
                         if "NAMA RAMBU" in name.upper():
                             nama_rambu_column = col
-                            self._log(f"Found 'Nama Rambu' column: {name} (Column {get_column_letter(col)})")
+                            print(f"Found 'Nama Rambu' column: {name} (Column {get_column_letter(col)})")
                         
                         # Find the specific column for "Jenis Tiang"
                         elif "JENIS TIANG" in name.upper():
                             jenis_tiang_column = col
-                            self._log(f"Found 'Jenis Tiang' column: {name} (Column {get_column_letter(col)})")
+                            print(f"Found 'Jenis Tiang' column: {name} (Column {get_column_letter(col)})")
                     
                     # Track images processed for each category
                     images_by_category = {
@@ -1070,7 +1191,7 @@ class ExcelConverter:
                     # 2. Process RAMBU columns (custom naming based on "Nama Rambu" column)
                     if rambu_columns:
                         if nama_rambu_column is None:
-                            self._log("⚠️ Warning: 'Nama Rambu' column not found. Using default naming for Rambu images.")
+                            print("⚠️ Warning: 'Nama Rambu' column not found. Using default naming for Rambu images.")
                         
                         processed = self.process_image_columns(
                             ws, image_loader, rambu_columns, rambu_folder, 
@@ -1091,17 +1212,18 @@ class ExcelConverter:
                     
                     total_images_saved += sum(images_by_category.values())
                     
-                    self._log(f"✅ Completed sheet '{sheet_name}':")
-                    self._log(f"  - Dokumentasi: {images_by_category['dokumentasi']} images")
-                    self._log(f"  - Rambu: {images_by_category['rambu']} images")
-                    self._log(f"  - RPPJ: {images_by_category['rppj']} images")
+                    self._log(f"  - Dokumentasi: {images_by_category['dokumentasi']} images saved to {dokumentasi_folder}")
+                    self._log(f"  - Rambu: {images_by_category['rambu']} images saved to {rambu_folder}")
+                    self._log(f"  - RPPJ: {images_by_category['rppj']} images saved to {rppj_folder}")
                     
                     if sum(images_by_category.values()) > 0:
                         successful_sheets += 1
                     
                 except Exception as e:
                     self._log(f"❌ Error processing sheet '{sheet_name}' in file '{file_name_clean}': {str(e)}")
-                
+                    import traceback
+                    self._log(traceback.format_exc())
+
                 finally:
                     # Always close the workbook after processing each sheet
                     if 'wb' in locals() and wb is not None:
@@ -1116,126 +1238,15 @@ class ExcelConverter:
             return True
             
         except Exception as e:
-            # Handle any errors in the outer scope
             self._log(f"❌ Error processing file '{file_path}': {str(e)}")
             return False
-
-    def process_image_columns(self, ws, image_loader, target_columns, output_folder, file_name_clean, #Process images in specified columns with custom naming logic.
-                            safe_sheet_name, category, nama_rambu_column, jenis_tiang_column): 
-        
-        # Track existing image names (to avoid duplicates for Rambu)
-        existing_images = {}
-        
-        # Find image cells in target columns
-        image_cells = {}
-        for col in target_columns:
-            col_letter = get_column_letter(col)
-            column_name = target_columns[col]
-            
-            # Make column name safe for filename
-            safe_column_name = re.sub(r'[\\/*?:"<>|]', "_", column_name)
-            
-            # Scan rows starting from row 6
-            for row in range(6, ws.max_row + 1):
-                cell_address = f"{col_letter}{row}"
-                if image_loader.image_in(cell_address):
-                    image_cells[(row, col)] = {
-                        'cell_address': cell_address,
-                        'column_name': safe_column_name,
-                        'column_letter': col_letter,
-                        'row_number': row
-                    }
-        
-        if not image_cells:
-            self._log(f"⚠️ No images found in {category.upper()} columns, skipping...")
-            return 0
-        
-        self._log(f"Found {len(image_cells)} images in {category.upper()} columns")
-        
-        # Process images in column-first, row-second order
-        successful_images = 0
-        image_cells_by_column = {}
-        
-        # Group by column
-        for (row, col), cell_info in image_cells.items():
-            if col not in image_cells_by_column:
-                image_cells_by_column[col] = []
-            image_cells_by_column[col].append((row, cell_info))
-        
-        # Process each column
-        for col in sorted(image_cells_by_column.keys()):
-            column_letter = get_column_letter(col)
-            column_name = target_columns[col]
-            safe_column_name = re.sub(r'[\\/*?:"<>|]', "_", column_name)
-            
-            self._log(f"Processing {len(image_cells_by_column[col])} images in column '{column_name}'")
-            
-            # Process rows in order
-            for row, cell_info in sorted(image_cells_by_column[col], key=lambda x: x[0]):
-                cell_address = cell_info['cell_address']
-                try:
-                    # Get the image
-                    img = image_loader.get(cell_address)
-                    
-                    # Generate filename based on category
-                    if category == "rambu" and nama_rambu_column is not None:
-                        # For RAMBU: Use "Nama Rambu" column value as filename
-                        nama_rambu_value = ws[f"{get_column_letter(nama_rambu_column)}{row}"].value
-                        
-                        if nama_rambu_value and str(nama_rambu_value).strip():
-                            # Use the actual value from "Nama Rambu" column
-                            safe_nama_rambu = re.sub(r'[\\/*?:"<>|]', "_", str(nama_rambu_value).strip())
-                            img_filename = f"{safe_nama_rambu}.png"
-                            
-                            # Check if this name already exists (to avoid duplicates)
-                            if img_filename in existing_images:
-                                self._log(f"  ⚠️ Duplicate 'Nama Rambu' found: {safe_nama_rambu} - Replacing existing image")
-                            
-                            existing_images[img_filename] = True
-                        else:
-                            # Fallback to default naming if no nama_rambu value
-                            self._log(f"  ⚠️ No 'Nama Rambu' value found for row {row}, using default naming")
-                            row_identifier = f"Row{row}"
-                            safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
-                            img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
-                    
-                    elif category == "rppj" and jenis_tiang_column is not None:
-                        # For RPPJ: Use "Jenis Tiang" column value in filename
-                        jenis_tiang_value = ws[f"{get_column_letter(jenis_tiang_column)}{row}"].value
-                        safe_jenis_tiang = "Unknown"
-                        if jenis_tiang_value and str(jenis_tiang_value).strip():
-                            safe_jenis_tiang = re.sub(r'[\\/*?:"<>|]', "_", str(jenis_tiang_value).strip())
-                        
-                        # Get row identifier - ALWAYS use just the row number without column A value
-                        row_identifier = f"Row{row}"
-                        
-                        safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
-                        img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_jenis_tiang}_{safe_row_identifier}.png"
-                    
-                    else:
-                        # Default naming for DOKUMENTASI (and fallback for others)
-                        # ALWAYS use just the row number without column A value
-                        row_identifier = f"Row{row}"
-                        
-                        safe_row_identifier = re.sub(r'[\\/*?:"<>|]', "_", row_identifier)
-                        img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
-                    
-                    # Save the image
-                    img_path = os.path.join(output_folder, img_filename)
-                    with io.BytesIO() as img_buffer:
-                        img.save(img_buffer, format="PNG")
-                        img_buffer.seek(0)
-                        with open(img_path, 'wb') as f:
-                            f.write(img_buffer.read())
-                    
-                    successful_images += 1
-                    self._log(f"  ✅ Saved: {img_filename}")
-                except Exception as e:
-                    self._log(f"  ❌ Error saving image at {cell_address}: {str(e)}")
-        
-        return successful_images
-
+    
     def process_single_excel_file_images(self,file_path, export_folder): #Process a single Excel file and extract images from it.
+
+        # Convert paths to absolute paths
+        file_path = os.path.abspath(file_path)
+        export_folder = os.path.abspath(export_folder)
+
         # Create "Extract Images" folder within the export directory
         output_folder = os.path.join(export_folder, "Extract Images")
         os.makedirs(output_folder, exist_ok=True)
@@ -1261,6 +1272,10 @@ class ExcelConverter:
         return result
 
     def process_excel_folder_images(self,folder_path, export_folder): #Process all Excel files in a folder and extract images from them.
+
+        # Convert paths to absolute paths
+        file_path = os.path.abspath(file_path)
+        export_folder = os.path.abspath(export_folder)
 
         # Create "Extract Images" folder within the export directory
         output_folder = os.path.join(export_folder, "Extract Images")
@@ -1348,6 +1363,7 @@ class ExcelConverter:
                 output_base_dir,
                 "Extract Images",
                 "Dokumentasi",
+                file_name_clean,
                 f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_Row{safe_row_identifier}.png"
             )
             
@@ -1402,7 +1418,7 @@ class ExcelConverter:
         
         return gdf
 
-    def save_to_geojson(self,gdf, output_path, batas_wilayah=None, excel_name=None, sheet_name=None, output_base_dir=None):
+    def save_to_geojson(self, gdf, output_path, batas_wilayah=None, excel_name=None, sheet_name=None, output_base_dir=None,jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"):
         try:
             gdf = gdf.copy()
             
@@ -1475,7 +1491,7 @@ class ExcelConverter:
                     file_name = os.path.basename(output_path)
                     
                     # Create new path with Kota/Kabupaten and Jalan Eksisting folders
-                    new_output_dir = os.path.join(output_dir, name_obj, "Jalan Eksisting")
+                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan)
                     os.makedirs(new_output_dir, exist_ok=True)
                     
                     new_output_path = os.path.join(new_output_dir, file_name)
@@ -1483,8 +1499,18 @@ class ExcelConverter:
                     # Save the GeoJSON file
                     self.clean_geojson(group, new_output_path)
             else:
-                # If Kota/Kabupaten is not in columns, just save to the original path
-                self.clean_geojson(gdf, output_path)
+                # If Kota/Kabupaten is not in columns, still use jenis_jalan and tipe_jalan
+                output_dir = os.path.dirname(output_path)
+                file_name = os.path.basename(output_path)
+
+                # Create new path with jenis_jalan and tipe_jalan folders
+                new_output_dir = os.path.join(output_dir, "Unknown Kota/Kabupaten", jenis_jalan, tipe_jalan)
+                os.makedirs(new_output_dir, exist_ok=True)
+                new_output_path = os.path.join(new_output_dir, file_name)
+
+                # Save the GeoJSON file
+                self.clean_geojson(gdf, new_output_path)
+
         except Exception as e:
             self._log(f"❌ Error saving GeoJSON {output_path}: {str(e)}")
             import traceback
@@ -1504,7 +1530,7 @@ class ExcelConverter:
         os.remove(temp_path)
         self._log(f"✅ Saved: {output_path}")
 
-    def flatten_excel_to_geojson(self,file_path, output_folder, excel_name=None, batas_wilayah=None, error_logs=None):
+    def flatten_excel_to_geojson(self,file_path, output_folder, excel_name=None, batas_wilayah=None, error_logs=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"):
         if error_logs is None:
             error_logs = []
         
@@ -1842,8 +1868,11 @@ class ExcelConverter:
                             batas_wilayah,
                             excel_name=excel_name,
                             sheet_name=sheet_name,
-                            output_base_dir=output_base_dir
+                            output_base_dir=output_base_dir,
+                            jenis_jalan=jenis_jalan,
+                            tipe_jalan=tipe_jalan
                         )
+                
                     
                 except Exception as e:
                     self._log(f"❌ Error processing sheet '{sheet_name}': {str(e)}")
@@ -1858,7 +1887,7 @@ class ExcelConverter:
             traceback.print_exc()
             return error_logs
 
-    def process_single_excel_file_geojson(self,file_path, output_base_folder, batas_wilayah_path=None): # Process a single Excel file and convert it to GeoJSON
+    def process_single_excel_file_geojson(self,file_path, output_base_folder, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): # Process a single Excel file and convert it to GeoJSON
         # Create output folder
         output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
         os.makedirs(output_folder, exist_ok=True)
@@ -1881,7 +1910,15 @@ class ExcelConverter:
         error_logs = []
         try:
             # Process the file
-            error_logs = self.flatten_excel_to_geojson(file_path, output_folder, excel_name, batas_wilayah, error_logs)
+            error_logs = self.flatten_excel_to_geojson(
+                file_path, 
+                output_folder, 
+                excel_name, 
+                batas_wilayah, 
+                error_logs,
+                jenis_jalan=jenis_jalan,
+                tipe_jalan=tipe_jalan
+            )
             self._log(f"✅ Completed processing: {file_name}")
             if error_logs:
                 self._log(f"⚠️ Found {len(error_logs)} coordinate errors during processing")
@@ -1893,7 +1930,7 @@ class ExcelConverter:
         self._log(f"\nProcessing: {file_name}")
         self._log(f"\n🎉 Excel file processed. Output saved to: {output_folder}")
 
-    def process_excel_folder_geojson(self,input_folder, output_base_folder, batas_wilayah_path=None): # Process a folder contain excel files and convert it to GeoJSON
+    def process_excel_folder_geojson(self,input_folder, output_base_folder, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): # Process a folder contain excel files and convert it to GeoJSON
         output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
         os.makedirs(output_folder, exist_ok=True)
         
@@ -1926,7 +1963,15 @@ class ExcelConverter:
             
             try:
                 # Collect errors from processing this file
-                file_errors = self.flatten_excel_to_geojson(file_path, output_folder, excel_name, batas_wilayah, [])
+                file_errors = self.flatten_excel_to_geojson(
+                    file_path, 
+                    output_folder, 
+                    excel_name, 
+                    batas_wilayah, 
+                    [],
+                    jenis_jalan=jenis_jalan,
+                    tipe_jalan=tipe_jalan
+                )
                 all_error_logs.extend(file_errors)
                 self._log(f"✅ Completed processing: {file_name}")
                 if file_errors:
