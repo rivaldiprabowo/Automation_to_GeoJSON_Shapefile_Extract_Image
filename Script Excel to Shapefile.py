@@ -371,7 +371,7 @@ def process_coordinates(df, lat_col, lon_col, sheet_name=None, excel_name=None):
     
     return df_copy, error_rows
 
-def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  # Save GeoDataFrame to Shapefile
+def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"):  # Save GeoDataFrame to Shapefile
     try:
         gdf = gdf.copy()
         
@@ -449,19 +449,19 @@ def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  #
         # Rename the columns
         gdf = gdf.rename(columns=new_columns)
         
-        # Modify the output path to include NAMOBJ and "Jalan Eksisting"
+        # Modify the output path to include NAMOBJ, jenis_jalan, and tipe_jalan
         if 'NAMOBJ' in gdf.columns:
             # Group by NAMOBJ and save each group to the appropriate directory
             for name_obj, group in gdf.groupby('NAMOBJ'):
                 if pd.isna(name_obj):
                     name_obj = "Unknown"
                     
-                # Create directory structure: output_folder/Extract Shapefile/NAMOBJ/Jalan Eksisting
+                # Create directory structure: output_folder/name_obj/jenis_jalan/tipe_jalan
                 output_dir = os.path.dirname(output_path)
                 file_name = os.path.basename(output_path)
                 
-                # Create new path with NAMOBJ and Jalan Eksisting folders
-                new_output_dir = os.path.join(output_dir, name_obj, "Jalan Eksisting")
+                # Create new path with NAMOBJ, jenis_jalan, and tipe_jalan folders
+                new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan)
                 os.makedirs(new_output_dir, exist_ok=True)
                 
                 new_output_path = os.path.join(new_output_dir, file_name)
@@ -506,7 +506,7 @@ def save_to_shapefile(gdf, output_path, batas_wilayah=None, qml_folder=None):  #
         import traceback
         traceback.print_exc()
 
-def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_wilayah=None, qml_folder=None, error_logs=None): #Convert an Excel file to Shapefile and collect error logs
+def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_wilayah=None, qml_folder=None, error_logs=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Convert an Excel file to Shapefile and collect error logs
     if error_logs is None:
         error_logs = []
     
@@ -835,7 +835,7 @@ def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_
                     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
                     # Save as shapefile
-                    save_to_shapefile(gdf, output_path, batas_wilayah, qml_folder)
+                    save_to_shapefile(gdf, output_path, batas_wilayah, qml_folder, jenis_jalan, tipe_jalan)
                 else:
                     print(f"⚠️ Skipping '{sheet_name}' (No valid geometry found)")
                     continue
@@ -852,7 +852,7 @@ def flatten_excel_to_shapefile(file_path, output_folder, excel_name=None, batas_
         traceback.print_exc()
         return error_logs
 
-def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for one Excel file
+def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for one Excel file
     output_folder = os.path.join(output_base_folder, "Extract Shapefile")
     os.makedirs(output_folder, exist_ok=True)
     
@@ -887,7 +887,7 @@ def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folde
         wb = load_workbook(file_path, data_only=True)
         
         # Process the file (this will handle all sheets)
-        error_logs = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, error_logs)
+        error_logs = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, error_logs, jenis_jalan, tipe_jalan)
         
         print(f"✅ Completed processing: {file_name}")
         if error_logs:
@@ -897,7 +897,7 @@ def process_single_excel_file_shapefile(file_path, output_base_folder, qml_folde
         import traceback
         traceback.print_exc()
 
-def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None): #Process conversion for all Excel files in a folder
+def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for all Excel files in a folder
     output_folder = os.path.join(output_base_folder, "Extract Shapefile")
     os.makedirs(output_folder, exist_ok=True)
     
@@ -937,7 +937,7 @@ def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=
         
         try:
             # Collect errors from processing this file
-            file_errors = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, [])
+            file_errors = flatten_excel_to_shapefile(file_path, output_folder, excel_name, batas_wilayah, qml_folder, [], jenis_jalan, tipe_jalan)
             all_error_logs.extend(file_errors)
             print(f"✅ Completed processing: {file_name}")
             if file_errors:
@@ -956,12 +956,13 @@ def process_excel_folder_shapefile(input_folder, output_base_folder, qml_folder=
 
 # %%
 # Check for one file to process
-file_path = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey\Ludira 27.A Jl. Bhayangkara (Pelabuhan Ratu).xlsx"  # Fill with the path file of excel
-output_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export1"  # Fill with the path folder of export result
-excel_name = r"01. Cileungsi - Cibeet.xlsx"
+file_path = r"C:\Users\kanzi\Documents\Part Time Job\Data Hasil Survey\01. Cileungsi - Cibeet.xlsx"  # Fill with the path file of excel
+output_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export2"  # Fill with the path folder of export result
 batas_wilayah = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- Batas wilayah kota\Batas_Kota_Kabupaten_JABAR.shp"
 qml_folder = r"C:\Users\kanzi\Documents\Part Time Job\Hasil Export\- QML File"
-process_single_excel_file_shapefile(file_path, output_folder,qml_folder,batas_wilayah)
+jenis_jalan=r"Jalan Hahaha Prioritas"
+tipe_jalan=r"Eksisting"
+process_single_excel_file_shapefile(file_path, output_folder,qml_folder,batas_wilayah,jenis_jalan,tipe_jalan)
 
 # %%
 # Check for one folder to process
