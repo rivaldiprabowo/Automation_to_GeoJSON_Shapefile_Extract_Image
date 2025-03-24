@@ -1,0 +1,38 @@
+# Ignore the virtual environment
+automate_conversion_env/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+.env/
+.conda/
+
+# Ignore Excel data files
+Data/
+
+# Ignore output folders
+converted_output/
+extracted_images/
+Demo_Output/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore large library files (GDAL, etc.)
+*.dll
+*.exe
+*.pkg
