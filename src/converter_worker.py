@@ -382,6 +382,40 @@ class ExcelConverter:
         
         return df_copy, error_rows
 
+    def process_jenis_rambu_columns(self,df): # Process columns with 'Jenis Rambu' prefix to create a new 'Jenis Rambu' property
+
+        # Find columns with 'Jenis Rambu' prefix
+        rambu_cols = [col for col in df.columns if isinstance(col, str) and col.lower().startswith('jenis rambu')]
+        
+        def determine_jenis_rambu(row):
+            # Count True/1 values in Jenis Rambu columns
+            true_rambu_cols = [col for col in rambu_cols if pd.notna(row[col]) and (row[col] == True or row[col] == 1)]
+            
+            # If more than one True value, return "Rambu Ganda"
+            if len(true_rambu_cols) > 1:
+                return "Rambu Ganda"
+            
+            # Regex-based mapping for Jenis Rambu types
+            rambu_mapping = [
+                (r'lara(ngan)?', 'Larangan'),
+                (r'peri(ngatan)?', 'Peringatan'),
+                (r'peri(ntah)?', 'Perintah'),
+                (r'petun(juk)?', 'Petunjuk')
+            ]
+            
+            # Find the first matching True column and map its type
+            for col in true_rambu_cols:
+                col_lower = col.lower()
+                for pattern, value in rambu_mapping:
+                    if re.search(pattern, col_lower):
+                        return value
+            
+            # If no match found, return None
+            return None
+        
+        # Apply the processing to create new series
+        return df.apply(determine_jenis_rambu, axis=1)
+
     def save_to_shapefile(self,gdf, output_path, batas_wilayah=None, qml_folder=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"):  # Save GeoDataFrame to Shapefile
         try:
             gdf = gdf.copy()
@@ -436,6 +470,10 @@ class ExcelConverter:
             for col in gdf.columns:
                 if col == "geometry" or col == "Geometry":
                     continue
+                
+                # Special handling for 'Jenis Rambu' column in RAMBU sheet
+                if 'Jenis Rambu' in gdf.columns:
+                    new_columns['Jenis Rambu'] = 'JenisRam_1'
                 
                 # Special handling for name-related columns - don't add numbers to these
                 if 'name' in str(col).lower() or 'nama' in str(col).lower() or col == 'NAMOBJ':
@@ -495,9 +533,17 @@ class ExcelConverter:
                         else:
                             self._log(f"⚠️ No QML file found for {sheet_name}")
             else:
-                # If NAMOBJ is not in columns, just save to the original path
-                gdf.to_file(output_path, driver="ESRI Shapefile")
-                self._log(f"✅ Saved: {output_path}")
+            # If NAMOBJ is not in columns, just save to the original path
+                output_dir = os.path.dirname(output_path)
+                file_name = os.path.basename(output_path)
+
+                # Create new path with jenis_jalan and tipe_jalan folders
+                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan)
+                os.makedirs(new_output_dir, exist_ok=True)
+                new_output_path = os.path.join(new_output_dir, file_name)
+
+                # Save the shapefile
+                gdf.to_file(new_output_path, driver="ESRI Shapefile")
                 
                 # Apply QML Style if qml_folder is provided
                 if qml_folder is not None:
@@ -841,6 +887,11 @@ class ExcelConverter:
                         if any('rekap' in str(col).lower() for col in gdf.columns):
                             gdf = gdf.loc[:, ~gdf.columns.astype(str).str.contains("rekap", case=False, na=False)]
                         
+                        # Add properties Jenis Rambu for GeoJSON properties
+                        if sheet_name.lower() == 'rambu':
+                            # Add the Jenis Rambu property
+                            gdf['Jenis Rambu'] = self.process_jenis_rambu_columns(gdf)
+
                         # Define output file path
                         output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.shp")
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -1504,7 +1555,7 @@ class ExcelConverter:
                 file_name = os.path.basename(output_path)
 
                 # Create new path with jenis_jalan and tipe_jalan folders
-                new_output_dir = os.path.join(output_dir, "Unknown Kota/Kabupaten", jenis_jalan, tipe_jalan)
+                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan)
                 os.makedirs(new_output_dir, exist_ok=True)
                 new_output_path = os.path.join(new_output_dir, file_name)
 
@@ -1857,6 +1908,11 @@ class ExcelConverter:
                         if any('rekap' in str(col).lower() for col in gdf.columns):
                             gdf = gdf.loc[:, ~gdf.columns.astype(str).str.contains("rekap", case=False, na=False)]
                         
+                        # Add properties Jenis Rambu for GeoJSON properties
+                        if sheet_name.lower() == 'rambu':
+                            # Add the Jenis Rambu property
+                            gdf['Jenis Rambu'] = self.process_jenis_rambu_columns(gdf)
+
                         # Define output file path
                         output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.geojson")
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
