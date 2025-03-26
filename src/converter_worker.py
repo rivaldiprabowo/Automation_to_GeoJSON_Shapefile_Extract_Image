@@ -142,7 +142,7 @@ class ExcelConverter:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Define the log file path
-        log_path = os.path.join(output_base_folder, f"Coordinate_Error_Log_{timestamp}.xlsx")
+        log_path = os.path.join(output_base_folder, f"Coordinate_Error_Log_{timestamp}.xlsx").replace(os.path.sep, '/')
         
         # Add a summary column for easier reviewing
         if not df.empty:
@@ -497,7 +497,8 @@ class ExcelConverter:
             
             # Rename the columns
             gdf = gdf.rename(columns=new_columns)
-            
+            gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
+
             # Modify the output path to include NAMOBJ, jenis_jalan, and tipe_jalan
             if 'NAMOBJ' in gdf.columns:
                 # Group by NAMOBJ and save each group to the appropriate directory
@@ -510,11 +511,13 @@ class ExcelConverter:
                     file_name = os.path.basename(output_path)
                     
                     # Create new path with NAMOBJ, jenis_jalan, and tipe_jalan folders
-                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan)
+                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan).replace(os.path.sep, '/')
                     os.makedirs(new_output_dir, exist_ok=True)
                     
-                    new_output_path = os.path.join(new_output_dir, file_name)
+                    new_output_path = os.path.join(new_output_dir, file_name).replace(os.path.sep, '/')
                     
+                    gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
+
                     # Save the shapefile
                     group.to_file(new_output_path, driver="ESRI Shapefile")
                     
@@ -523,7 +526,7 @@ class ExcelConverter:
                     # Apply QML Style if qml_folder is provided
                     if qml_folder is not None:
                         sheet_name = os.path.splitext(file_name)[0].split('_')[-1]  # Extract sheet name from filename
-                        qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml")  # Assuming QML file follows sheet name
+                        qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml").replace(os.path.sep, '/')  # Assuming QML file follows sheet name
                         qml_target_file = new_output_path.replace(".shp", ".qml")
                         
                         if os.path.exists(qml_source_file):
@@ -538,17 +541,20 @@ class ExcelConverter:
                 file_name = os.path.basename(output_path)
 
                 # Create new path with jenis_jalan and tipe_jalan folders
-                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan)
+                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan).replace(os.path.sep, '/')
                 os.makedirs(new_output_dir, exist_ok=True)
-                new_output_path = os.path.join(new_output_dir, file_name)
+                new_output_path = os.path.join(new_output_dir, file_name).replace(os.path.sep, '/')
+
+                gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
 
                 # Save the shapefile
                 gdf.to_file(new_output_path, driver="ESRI Shapefile")
+                self._log(f"✅ Saved: {output_path}")
                 
                 # Apply QML Style if qml_folder is provided
                 if qml_folder is not None:
                     sheet_name = os.path.splitext(os.path.basename(output_path))[0].split('_')[-1]  # Extract sheet name
-                    qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml")  # Assuming QML file follows sheet name
+                    qml_source_file = os.path.join(qml_folder, f"{sheet_name}.qml").replace(os.path.sep, '/')  # Assuming QML file follows sheet name
                     qml_target_file = output_path.replace(".shp", ".qml")
                     
                     if os.path.exists(qml_source_file):
@@ -893,7 +899,7 @@ class ExcelConverter:
                             gdf['Jenis Rambu'] = self.process_jenis_rambu_columns(gdf)
 
                         # Define output file path
-                        output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.shp")
+                        output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.shp").replace(os.path.sep, '/')
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
                         # Save as shapefile
@@ -915,7 +921,7 @@ class ExcelConverter:
             return error_logs
 
     def process_single_excel_file_shapefile(self,file_path, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for one Excel file
-        output_folder = os.path.join(output_base_folder, "Extract Shapefile")
+        output_folder = os.path.join(output_base_folder, "Extract Shapefile").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Load the city boundaries shapefile if provided
@@ -960,7 +966,7 @@ class ExcelConverter:
             traceback.print_exc()
 
     def process_excel_folder_shapefile(self,input_folder, output_base_folder, qml_folder=None, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): #Process conversion for all Excel files in a folder
-        output_folder = os.path.join(output_base_folder, "Extract Shapefile")
+        output_folder = os.path.join(output_base_folder, "Extract Shapefile").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Load the city boundaries shapefile if provided
@@ -1120,7 +1126,7 @@ class ExcelConverter:
                             img_filename = f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_{safe_row_identifier}.png"
                     
                     # Save the image
-                    img_path = os.path.join(output_folder, img_filename)
+                    img_path = os.path.join(output_folder, img_filename).replace(os.path.sep, '/')
                     with io.BytesIO() as img_buffer:
                         img.save(img_buffer, format="PNG")
                         img_buffer.seek(0)
@@ -1147,9 +1153,9 @@ class ExcelConverter:
             file_name_clean = os.path.basename(file_path).replace('.xlsx', '').replace('.xlsm', '')
         
         # Create subdirectories for each category
-        dokumentasi_folder = os.path.join(output_folder, "Dokumentasi", file_name_clean)
-        rambu_folder = os.path.join(output_folder, "Rambu")
-        rppj_folder = os.path.join(output_folder, "RPPJ")
+        dokumentasi_folder = os.path.join(output_folder, "Dokumentasi", file_name_clean).replace(os.path.sep, '/')
+        rambu_folder = os.path.join(output_folder, "Rambu").replace(os.path.sep, '/')
+        rppj_folder = os.path.join(output_folder, "RPPJ").replace(os.path.sep, '/')
         
         for folder in [dokumentasi_folder, rambu_folder, rppj_folder]:
             os.makedirs(folder, exist_ok=True)
@@ -1299,7 +1305,7 @@ class ExcelConverter:
         export_folder = os.path.abspath(export_folder)
 
         # Create "Extract Images" folder within the export directory
-        output_folder = os.path.join(export_folder, "Extract Images")
+        output_folder = os.path.join(export_folder, "Extract Images").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Process the file
@@ -1329,7 +1335,7 @@ class ExcelConverter:
         export_folder = os.path.abspath(export_folder)
 
         # Create "Extract Images" folder within the export directory
-        output_folder = os.path.join(export_folder, "Extract Images")
+        output_folder = os.path.join(export_folder, "Extract Images").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Track statistics
@@ -1341,7 +1347,7 @@ class ExcelConverter:
         excel_files = []
         for file in os.listdir(folder_path):
             if file.endswith(('.xlsx', '.xlsm')):
-                excel_files.append(os.path.join(folder_path, file))
+                excel_files.append(os.path.join(folder_path, file).replace(os.path.sep, '/'))
         
         if not excel_files:
             self._log("⚠️ No Excel files found in the specified folder.")
@@ -1416,7 +1422,7 @@ class ExcelConverter:
                 "Dokumentasi",
                 file_name_clean,
                 f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_{safe_column_name}_Row{safe_row_identifier}.png"
-            )
+            ).replace(os.path.sep, '/')
             
             # Assign to the dataframe
             gdf.at[idx, 'Image Dokumentasi'] = image_path
@@ -1443,7 +1449,7 @@ class ExcelConverter:
                     if nama_rambu_value and nama_rambu_value.lower() != 'nan' and nama_rambu_value.lower() != 'none':
                         # Construct the image path using the Nama Rambu value
                         safe_nama_rambu = self.sanitize_for_path(nama_rambu_value)
-                        image_path = os.path.join(output_base_dir, "Extract Images", "Rambu", f"{safe_nama_rambu}.png")
+                        image_path = os.path.join(output_base_dir, "Extract Images", "Rambu", f"{safe_nama_rambu}.png").replace(os.path.sep, '/')
                         
                         # Assign the constructed path to the 'Image Rambu' property
                         gdf.at[idx, 'Image Rambu'] = image_path
@@ -1462,7 +1468,7 @@ class ExcelConverter:
                     "Extract Images",
                     "RPPJ",
                     f"{file_name_clean}_Sheet_{safe_sheet_name}_Column_RPPJ_Row{safe_row_identifier}.png"
-                )
+                ).replace(os.path.sep, '/')
                 
                 # Assign to the dataframe
                 gdf.at[idx, 'Image RPPJ'] = image_path
@@ -1542,11 +1548,13 @@ class ExcelConverter:
                     file_name = os.path.basename(output_path)
                     
                     # Create new path with Kota/Kabupaten and Jalan Eksisting folders
-                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan)
+                    new_output_dir = os.path.join(output_dir, name_obj, jenis_jalan, tipe_jalan).replace(os.path.sep, '/')
                     os.makedirs(new_output_dir, exist_ok=True)
                     
-                    new_output_path = os.path.join(new_output_dir, file_name)
+                    new_output_path = os.path.join(new_output_dir, file_name).replace(os.path.sep, '/')
                     
+                    gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
+
                     # Save the GeoJSON file
                     self.clean_geojson(group, new_output_path)
             else:
@@ -1555,9 +1563,11 @@ class ExcelConverter:
                 file_name = os.path.basename(output_path)
 
                 # Create new path with jenis_jalan and tipe_jalan folders
-                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan)
+                new_output_dir = os.path.join(output_dir, "Unknown Daerah", jenis_jalan, tipe_jalan).replace(os.path.sep, '/')
                 os.makedirs(new_output_dir, exist_ok=True)
-                new_output_path = os.path.join(new_output_dir, file_name)
+                new_output_path = os.path.join(new_output_dir, file_name).replace(os.path.sep, '/')
+
+                gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
 
                 # Save the GeoJSON file
                 self.clean_geojson(gdf, new_output_path)
@@ -1567,9 +1577,12 @@ class ExcelConverter:
             import traceback
             traceback.print_exc()
 
-    def clean_geojson(self,gdf, output_path):  # Save GeoDataFrame in a clean format GeoJSON file
+    def clean_geojson(self,gdf,output_path):  # Save GeoDataFrame in a clean format GeoJSON file
 
         temp_path = output_path.replace(".geojson", "_temp.geojson")
+
+        # Drop unnecessary column
+        gdf = gdf.drop(columns=[col for col in gdf.columns if 'Column' in col or 'column' in col])
         gdf.to_file(temp_path, driver="GeoJSON")
         
         with open(temp_path, "r", encoding="utf-8") as file:
@@ -1914,7 +1927,7 @@ class ExcelConverter:
                             gdf['Jenis Rambu'] = self.process_jenis_rambu_columns(gdf)
 
                         # Define output file path
-                        output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.geojson")
+                        output_path = os.path.join(output_folder, f"{excel_name}_{sheet_name}.geojson").replace(os.path.sep, '/')
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
                         # Save as GeoJSON with additional parameters for image documentation
@@ -1945,7 +1958,7 @@ class ExcelConverter:
 
     def process_single_excel_file_geojson(self,file_path, output_base_folder, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): # Process a single Excel file and convert it to GeoJSON
         # Create output folder
-        output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
+        output_folder = os.path.join(output_base_folder, "Extract GeoJSON").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Load the city boundaries shapefile if provided
@@ -1987,7 +2000,7 @@ class ExcelConverter:
         self._log(f"\n🎉 Excel file processed. Output saved to: {output_folder}")
 
     def process_excel_folder_geojson(self,input_folder, output_base_folder, batas_wilayah_path=None, jenis_jalan="Jalan Prioritas", tipe_jalan="Eksisting"): # Process a folder contain excel files and convert it to GeoJSON
-        output_folder = os.path.join(output_base_folder, "Extract GeoJSON")
+        output_folder = os.path.join(output_base_folder, "Extract GeoJSON").replace(os.path.sep, '/')
         os.makedirs(output_folder, exist_ok=True)
         
         # Load the city boundaries shapefile if provided
